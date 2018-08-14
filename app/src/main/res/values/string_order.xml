@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="order_product">Заказ</string>
+    <string name="order_stock">Остаток</string>
+    <string name="order_recom">Recom</string>
+    <string name="order_comment">Комментарий</string>
+    <string name="order_note">Заметка</string>
+    <string name="order_memos">Memos</string>
+    <string name="order_quiz">Опрос</string>
+    <string name="order_gift">Промо</string>
+    <string name="order_account">Счет</string>
+    <string name="order_order">Заказ(исх)</string>
+
+    <string name="order_outlet_name">Название контрагента</string>
+    <string name="order_outlet_category">Тип / Категория</string>
+    <string name="order_outlet_address">Район / Адрес</string>
+    <string name="order_deal_amount">Итого / Сумма</string>
+    <string name="order_user">Добавил</string>
+    <string name="order_visit_period">Время / Статус</string>
+
+    <string name="order_price_type">Тип счета</string>
+    <string name="order_sum">Сумма</string>
+    <string name="order_added">Добавил</string>
+    <string name="order_products">Продукт</string>
+    <string name="order_solid_deliver_quant">Количество (исх/изм)</string>
+    <string name="order_note_type">Тип заметки</string>
+    <string name="order_count">Количество</string>
+    <string name="order_price">Цена</string>
+    <string name="order_survey">Опрос</string>
+    <string name="order_answer">Ответ</string>
+    <string name="order_market">Рынок</string>
+
+
+</resources>

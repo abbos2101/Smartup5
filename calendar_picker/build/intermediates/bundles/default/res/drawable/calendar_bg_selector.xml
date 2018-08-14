@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright 2012 Square, Inc. -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item app:state_range_middle="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <padding android:bottom="0dp" android:left="8dp" android:right="8dp" android:top="0dp" />
+            <solid android:color="@color/calendar_selected_day_bg" />
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <padding android:bottom="0dp" android:left="8dp" android:right="8dp" android:top="0dp" />
+            <solid android:color="@color/calendar_selected_day_bg" />
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <padding android:bottom="0dp" android:left="8dp" android:right="8dp" android:top="0dp" />
+            <solid android:color="@color/calendar_selected_day_bg" />
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+    <item app:state_current_month="false">
+        <color android:color="@color/calendar_inactive_month_bg" />
+    </item>
+    <item app:state_highlighted="true">
+        <color android:color="@color/calendar_highlighted_day_bg" />
+    </item>
+    <item app:state_today="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <padding android:bottom="0dp" android:left="8dp" android:right="8dp" android:top="0dp" />
+            <solid android:color="@color/calendar_text_active" />
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+    <item>
+        <color android:color="@color/calendar_active_month_bg" />
+    </item>
+</selector>

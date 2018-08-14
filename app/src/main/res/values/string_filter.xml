@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="filter_outlet_visit">Дата визита</string>
+    <string name="filter_outlet_delivery_date">Дата отгрузки</string>
+    <string name="filter_outlet_debtor_date">Дата должник</string>
+    <string name="filter_outlet_debtor_payment">Дата оплаты</string>
+</resources>

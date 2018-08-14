@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="to_send">Отправить</string>
+    <string name="sent_my_location">Ваше местоположение отправлено</string>
+    <string name="determine">Определить местоположение</string>
+    <string name="update_my_location">Обновить местоположение</string>
+    <string name="accuracy">"Точность: %1$s м"</string>
+    <string name="unable_to_determine_your_location">Невозможно определить местоположение</string>
+    <string name="send_my_location">Отправить местоположение</string>
+    <string name="menu_prices">Прайс-лист</string>
+    <string name="you_location_has_been_successfully_sent">Ваше местоположение успешно отправлено.</string>
+
+    <string name="menu_filial_action">Акции</string>
+    <string name="duty_action_warehouse">Склад: %1$s</string>
+    <string name="duty_action_kind">Условие: %1$s</string>
+    <string name="duty_action_date">Дата от: %1$s до: %2$s</string>
+    <string name="duty_action_condition_title">Уровень %1$s</string>
+    <string name="duty_action_bonus_product_detail">Значение: %1$s</string>
+    <string name="duty_action_bonus_product_detail_max">, Максимум: %1$s</string>
+    <string name="duty_action_rule_detail">Значение от: %1$s</string>
+    <string name="duty_action_rule_detail_to_value"> до: %1$s</string>
+    <string name="duty_action_amount">Сумма</string>
+    <string name="duty_action_quant">Количество</string>
+    <string name="duty_action_weight">Вес</string>
+    <string name="duty_action_bonus">Бонус %1$s</string>
+    <string name="duty_action_rule">Условие %1$s</string>
+
+</resources>

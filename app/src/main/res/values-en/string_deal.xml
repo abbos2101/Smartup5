@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deal_comment">Comment</string>
+    <string name="deal_pko">Cash receipt</string>
+    <string name="deal_retail_audit">Retail audit</string>
+    <string name="deal_agree">Assignment statistics</string>
+    <string name="deal_overload">Overload</string>
+
+    <string name="deal_insufficient_product">Not enough product</string>
+    <string name="deal_prepare_visit">Prepare visit to send</string>
+    <string name="deal_total_amount">Total amount %1$s</string>
+    <string name="deal_residual_amount">Remaining amount %1$s</string>
+    <string name="deal_order_total_sum_not_equal">Payment amount is incorrect</string>
+    <string name="deal_pko_total_sum_not_equal">Amount of cash receipt is incorrect</string>
+    <string name="deal_specify_type_payment">Specify type of payment</string>
+    <string name="deal_error_in_ready_deal">Error at completion !!! \ nDeal was saved</string>
+    <string name="deal_complete">@string/complete</string>
+    <string name="deal_complete_as">Complete as</string>
+    <string name="deal_complete_draft">Complete as draft</string>
+    <string name="deal_remove_margin">Delete discount</string>
+    <string name="deal_filter_has_value">With presence of value</string>
+    <string name="deal_filter_has_discount">With availability of discount</string>
+    <string name="deal_filter_warehouse_avail">With presence of balance</string>
+    <string name="deal_filter_sort_first_mll">Sort MML</string>
+    <string name="deal_filter_has_barcode">With presence of barcode</string>
+    <string name="deal_filter_has_photo">With presence of photos</string>
+    <string name="deal_filter_has_file">With presence of file</string>
+    <string name="deal_filter_mml">MML</string>
+    <string name="deal_order_price">Price</string>
+    <string name="deal_order_warehous">Warehouse</string>
+    <string name="deal_order_recom">Recom.</string>
+    <string name="deal_order_discount">Discount</string>
+    <string name="deal_order_quant">Amount.</string>
+    <string name="deal_order_total_price">Total</string>
+    <string name="deal_order_clean">Clear</string>
+    <string name="deal_order_apply_filter">Apply filter</string>
+    <string name="deal_order_move_to">Move to</string>
+    <string name="deal_order_move_from">Move from</string>
+    <string name="deal_orders">Orders</string>
+    <string name="deal_quantity">Qty.</string>
+    <string name="deal_price">Price</string>
+    <string name="deal_card_code">Card</string>
+    <string name="deal_expiry_date">Shelf life</string>
+    <string name="deal_discount">Discount</string>
+    <string name="deal_expire_date">Shelf life</string>
+    <string name="deal_set_discount">Install</string>
+    <string name="deal_card_number">Card number</string>
+    <string name="deal_discount_mark_up">Discount/Mark up</string>
+    <string name="deal_sum">Amount:</string>
+    <string name="deal_count">Qty:</string>
+    <string name="deal_position">Position:</string>
+    <string name="deal_sku">SKU:</string>
+    <string name="deal_camera_app_not_found">Cannot access camera</string>
+    <string name="deal_photo_type_not_fond">Photo report type not found</string>
+    <string name="deal_photo_outlet_name">Name legal person: (%1$s) %2$s</string>
+    <string name="deal_photo_type">Type: %1$s</string>
+    <string name="deal_photo_type_dialog">Photo type</string>
+    <string name="deal_photo_date">Date: %1$s</string>
+    <string name="deal_delete_selected_photo">Delete selected photo</string>
+    <string name="deal_arrival_code">Card: %1$s</string>
+    <string name="deal_order_consignment">Consignment</string>
+    <string name="deal_sum_consign">Enter amount of consignment</string>
+    <string name="deal_date_consign">Enter payment date</string>
+    <string name="deal_consgn_data">Date of payment</string>
+    <string name="deal_first_make_order">Make sure you made an order to choose payment type</string>
+    <string name="deal_first_make_payment">Make sure you have chosen payment type before specifying consignment amount</string>
+    <string name="deal_stock_market">Market</string>
+    <string name="deal_stock_stock">Balance</string>
+    <string name="deal_products">Products</string>
+    <string name="deal_quantity_return">Specify quantity of return</string>
+    <string name="deal_price_return">Specify a return price</string>
+    <string name="deal_delivery_date">Shipping date</string>
+    <string name="deal_contract_number">@string/contract_number</string>
+    <string name="deal_expeditor">Expeditor</string>
+    <string name="deal_agent">Sales Representative</string>
+    <string name="deal_gift_warehouse">Warehouse</string>
+    <string name="deal_gift_quant">Qty.</string>
+    <string name="deal_gift_insufficient_gift">Insufficient promotional materials</string>
+    <string name="deal_module_is_mandatory">Module "%1$s" is required</string>
+    <string name="deal_mandatory_complete">Fill in the required modules</string>
+    <string name="deal_product_count">Amount: %1$s</string>
+    <string name="deal_min_length">Minimum number of characters %1$d</string>
+    <string name="deal_max_length">Maximum number of characters %1$d</string>
+    <string name="deal_greater_than">Response value must be greater than %1$d</string>
+    <string name="deal_less_than">Response value should be smaller than %1$d</string>
+    <string name="deal_extra">Additionally</string>
+    <string name="deal_payment_type">Payment type:</string>
+    <string name="deal_photo_info_type">Type of photo</string>
+    <string name="deal_photo_comment">Comment</string>
+    <string name="deal_photo_remove_msg">Are you sure you want to delete the photo</string>
+
+    <string name="deal_sum_calc">Amount: %1$s</string>
+
+    <string name="deal_service_sum">@string/deal_sum_calc</string>
+    <string name="deal_service_count">Quantity: %1$s</string>
+    <string name="deal_service">Services</string>
+    <string name="deal_title">Visit</string>
+
+    <string name="deal_consign_date_error">Date of consignment is incorrect! It should be later than today\'s date and date of shipment.</string>
+
+    <string name="deal_ra_layout_sold_price">Price</string>
+    <string name="deal_ra_layout_input_price">Input price</string>
+    <string name="deal_ra_layout_stock_quant">Qty. balance</string>
+    <string name="deal_ra_layout_stock_quant_large">Quantity balance</string>
+    <string name="deal_ra_layout_income_quant">Qty. purchased</string>
+    <string name="deal_ra_layout_income_quant_large">Quantity purchased</string>
+    <string name="deal_ra_layout_sold_quant">Qty. sold</string>
+    <string name="deal_ra_layout_sold_quant_large">Quantity sold</string>
+    <string name="deal_ra_layout_facing_quant">Qty. on the shelf</string>
+    <string name="deal_ra_layout_facing_quant_large">Quantity on the shelf</string>
+    <string name="deal_ra_layout_extra_facing">Additional shelf</string>
+    <string name="deal_ra_layout_extra_tray">Tray</string>
+    <string name="deal_ra_layout_extra_fridge">Fridge</string>
+    <string name="deal_ra_layout_extra_others">Others</string>
+    <string name="deal_ra_layout_extra_shelf_position">Shelf position</string>
+    <string name="deal_ra_layout_extra_shelf_share">Occupied shelf area (%)</string>
+    <string name="deal_term_of_consignment">Terms of consignment</string>
+    <string name="deal_consign_amount">Amount</string>
+
+    <string name="deal_ra_sold_price">Price: %1$s</string>
+    <string name="deal_ra_facing_quant">\u0020- Quantity on the shelf: %1$s</string>
+    <string name="deal_ra_extra_facing">\u0020- Additional shelf</string>
+    <string name="deal_ra_ext_tray">\u0020- Tray: %1$s</string>
+    <string name="deal_ra_ext_fridge">\u0020- Fridge: %1$s</string>
+    <string name="deal_ra_ext_others">\u0020- Others: %1$s</string>
+    <string name="deal_ra_shelf_position">\u0020- Shelf position: %1$s</string>
+    <string name="deal_ra_shelf_share">\u0020- Occupied shelf area: %1$s</string>
+    <string name="deal_ra_high">Hight</string>
+    <string name="deal_ra_medium">Medium</string>
+    <string name="deal_ra_low">Low</string>
+
+    <!-- Agree -->
+    <string name="deal_agree_not_found">Not found</string>
+    <string name="deal_agree_period">Period</string>
+    <string name="deal_agree_past">Past visit</string>
+    <string name="deal_agree_present">Current</string>
+    <string name="deal_agree_future">In perspective</string>
+    <string name="deal_agree_period_day">Day</string>
+    <string name="deal_agree_period_week">Week</string>
+    <string name="deal_agree_period_month">Per month</string>
+    <string name="deal_agree_period_year">In year</string>
+
+    <string name="deal_next_visit">Please specify date of next visit</string>
+    <string name="deal_saved_next_visit_plan">Your next visit is scheduled for %1$s</string>
+
+    <string name="deal_terms_of_action">Terms of action</string>
+
+    <string name="deal_note_hint_enter_text">Enter text</string>
+
+    <string name="deal_attach_agent_is_null_or_empty">There is no active sales representatives in the branch\nMaybe the lists just not updated, full synchronization can solve the situation</string>
+    <string name="deal_attach_expeditor_is_null_or_empty">There is no active Expeditors in the branch\nMaybe the lists just not updated, full synchronization can solve the situation</string>
+    <string name="deal_attach_agent_not_select">Select sales representative in the attaching module</string>
+    <string name="deal_attach_agent_is_are_you">You</string>
+    <string name="deal_actions">Action products</string>
+    <string name="deal_amount_scale">%1$s (%2$s)</string>
+    <string name="deal_total_module">Total</string>
+
+    <string name="deal_required_delivery_date">Specify date of shipment</string>
+    <string name="deal_save_online_deal_edit_error_1">You can not save deal when running synchronization</string>
+
+    <string name="deal_violation">Violation</string>
+    <string name="deal_you_have_more_violation">You have (%1$s) Violation(s)</string>
+    <string name="deal_violation_values">Value(%1$s)</string>
+    <string name="deal_violation_bans">Violations(%1$s)</string>
+    <string name="deal_ban_error_1">Вы достигли ограничения по данному типу цены: %1$s</string>
+    <string name="deal_ban_error_2">Вы достигли лимита задолженности: %1$s</string>
+    <string name="deal_ban_error_3">You cannot visit this legal person: %1$s</string>
+
+    <string name="deal_overloads">Overload products</string>
+    <string name="deal_promos">Promo products</string>
+    <string name="deal_similar_product">Поиск альтернативной продукции</string>
+
+</resources>

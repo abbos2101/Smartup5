@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_info">&lt;p>%1$s&lt;/p>&lt;i>%2$s(%3$s)&lt;/i></string>
+
+    <string name="message_reply_to_msg">Message reply</string>
+    <string name="message_info">Information</string>
+    <string name="message_inbox">Inbox</string>
+    <string name="message_outbox">Sent</string>
+    <string name="message_draft">Draft</string>
+    <string name="message_trash">Trash</string>
+    <string name="message_reply">Reply</string>
+    <string name="message_title">Subject</string>
+    <string name="message_text">Message text</string>
+    <string name="message_send_from">From: %1$s, %2$s</string>
+    <string name="message_send_to">To: %1$s</string>
+    <string name="message_receiver">To:</string>
+    <string name="message_send_reply">Re: %1$s</string>
+    <string name="message_send_answer_to">%1$s from %2$s wrote \n %3$s</string>
+    <string name="message_title_is_empty">Write a message subject</string>
+    <string name="message_text_is_empty">Write message text</string>
+    <string name="message_receivers_not_chosen">Enter the recipient</string>
+    <string name="message_sent">Message sent</string>
+    <string name="message_not_sent">Unfortunately, your message was not sent: %1$s</string>
+    <string name="message_saved_in_draft">The message was saved in the draft</string>
+    <string name="message_not_saved_in_draft">Could not save message in draft</string>
+    <string name="message_save_ignored">Could not save message in draft\nDelete Message?</string>
+    <string name="message_attention">Attention</string>
+    <string name="message_retry">Retry</string>
+    <string name="message_no_message">No messages</string>
+    <string name="message_new_message">New message</string>
+    <string name="message_deleted">Message deleted</string>
+    <string name="message_put_in_trash">Message sent to trash</string>
+    <string name="message_not_deleted">Could not delete message</string>
+    <string name="message_incoming_message">Incoming message</string>
+
+
+</resources>

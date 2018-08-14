@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="session_dashboard">Dashboard</string>
+    <string name="session_filial">Branches</string>
+    <string name="session_outlets">Legal persons</string>
+    <string name="session_outlet_doctors">Doctor</string>
+    <string name="session_outlet_pharms">Pharmacy</string>
+    <string name="session_warehouse">Warehouse</string>
+    <string name="session_today">Route plan</string>
+    <string name="session_shipped">Delivery</string>
+    <string name="session_visit_plan">Planning a visit</string>
+    <string name="session_report">@string/reporting</string>
+    <string name="session_report_v2">Reports (beta)</string>
+    <string name="session_exit">Exit</string>
+    <string name="session_duty">Services</string>
+    <string name="session_bedtor">@string/debtor</string>
+    <string name="session_tracking_mp">Tracking mobile users</string>
+    <string name="session_messages">Messages</string>
+    <string name="session_connection_with_us">About application</string>
+    <string name="session_sync_success_message">Synchronization completed successfully</string>
+    <string name="session_menu_return">Return</string>
+
+    <string name="session_today_empty">Take a little time to rest \nThere is no route plan today</string>
+    <string name="session_filia_not_have_role">No roles attached to you</string>
+
+    <string name="session_user">User</string>
+    <string name="session_server">Server</string>
+    <string name="session_last_sync">Last sync</string>
+    <string name="session_outlets_count">Legal persons %1$s</string>
+    <string name="session_last_visit_inf">Today is %1$s</string>
+
+    <string name="session_filial_not_attach">Branches are not attached</string>
+    <string name="session_outlet_address">&lt;i>Address: %1$s&lt;/i></string>
+    <string name="session_account">Account:</string>
+    <string name="session_success_sync">Synchronization was successful!</string>
+
+    <string name="exit_title">Exit</string>
+    <string name="exit_go_out">Exit</string>
+    <string name="exit_content">Are you sure to quit the program?</string>
+    <string name="exit_outlet_index">Are you sure you want to leave the legal person?</string>
+    <string name="exit_warehouse_index">Are you sure you want to leave the Warehouse?</string>
+    <string name="sync_width_photo">Send a photo</string>
+    <string name="sync_product_photo">Download product photos</string>
+    <string name="sync_product_file">Download product file</string>
+    <string name="session_fpp_info">Successfully: %1$s, Error: %2$s</string>
+
+
+    <string name="sync_visit_with_ref">Sync of visits and directories</string>
+    <string name="sync_visit_short">Quick synchronization</string>
+    <string name="sync_visit_long">Full synchronization</string>
+    <string name="send_visit_photo">Send photo of visits</string>
+    <string name="download_product_photo">Download product photos</string>
+    <string name="download_product_file">Download product files</string>
+
+    <string name="session_sync_sending_date">Sending data</string>
+    <string name="session_sync_admission_information">Receiving data</string>
+    <string name="session_sync_error_information">Data error %1$s</string>
+    <string name="session_sync_sending_photo">Sending photos %1$s/%2$s</string>
+    <string name="session_sync_success_send">Successfully sent %1$s</string>
+    <string name="session_sync_error_sending">Error sending %1$s</string>
+    <string name="session_sync_download_photo">Downloading a photo %1$s/%2$s</string>
+    <string name="session_sync_download_file">Downloading a file %1$s/%2$s</string>
+    <string name="session_sync_success_download">Successfully downloaded %1$s</string>
+    <string name="session_sync_error_download">Download error %1$s</string>
+    <string name="session_sync_data_success_send">Successfully sent data</string>
+    <string name="session_sync_data_processing">Data processing</string>
+
+    <string name="session_welcome">Welcome %1$s!</string>
+    <string name="session_dashboard_filial">Branch: %1$s</string>
+    <string name="session_main_today">Today</string>
+    <string name="session_today_visit">Route Visits</string>
+    <string name="session_today_visit_shipped">Deliveries by routes</string>
+    <string name="session_deals">Deals</string>
+    <string name="session_unscheduled_visits">Unplanned visits</string>
+
+    <string name="dashboard_price_type">Price type: %1$s</string>
+    <string name="dashboard_position">Position: %1$s</string>
+    <string name="dashboard_sku">SKU: %1$s</string>
+    <string name="dashboard_count">Quantity: %1$s</string>
+    <string name="dashboard_total_sum">Amount: %1$s</string>
+    <string name="dashboard_order_product">Sold products in visits</string>
+    <string name="dashboard_extraordinary_product">Sold products in deals</string>
+
+    <string name="session_visit_count">from %1$s: %2$d times.</string>
+    <string name="session_visit_latest">last: %1$s</string>
+
+    <string name="session_count">Quantity</string>
+
+    <string name="session_dashboard_deal_history_info">История</string>
+    <string name="deal_history_delivery_date">Отгрузка: %1$s</string>
+
+
+    <!--DEAL HISTORY-->
+    <string name="deal_state_new">Новый</string>
+    <string name="deal_state_executing">Обрабатывается</string>
+    <string name="deal_state_waiting">Ожидание</string>
+    <string name="deal_state_shipped">Отгружено</string>
+    <string name="deal_state_completed">Доставлено</string>
+    <string name="deal_state_archived">Архив</string>
+    <string name="deal_state_draft">Черновик</string>
+
+</resources>

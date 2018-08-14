@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\DATA\\PROJECT\\GWS\\smartup5_trade_mobile\\ph_android\\Smartup5\\calendar_picker\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\day.xml",
+        "source": "C:\\DATA\\PROJECT\\GWS\\smartup5_trade_mobile\\ph_android\\Smartup5\\calendar_picker\\build\\intermediates\\bundles\\debug\\res\\layout\\day.xml"
+    },
+    {
+        "merged": "C:\\DATA\\PROJECT\\GWS\\smartup5_trade_mobile\\ph_android\\Smartup5\\calendar_picker\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\week.xml",
+        "source": "C:\\DATA\\PROJECT\\GWS\\smartup5_trade_mobile\\ph_android\\Smartup5\\calendar_picker\\build\\intermediates\\bundles\\debug\\res\\layout\\week.xml"
+    },
+    {
+        "merged": "C:\\DATA\\PROJECT\\GWS\\smartup5_trade_mobile\\ph_android\\Smartup5\\calendar_picker\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\month.xml",
+        "source": "C:\\DATA\\PROJECT\\GWS\\smartup5_trade_mobile\\ph_android\\Smartup5\\calendar_picker\\build\\intermediates\\bundles\\debug\\res\\layout\\month.xml"
+    }
+]

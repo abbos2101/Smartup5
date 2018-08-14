@@ -1,0 +1,226 @@
+<resources>
+
+    <string-array name="setting_locale_code">
+        <item>ru#Русский (Россия)</item>
+        <item>en#English (USA)</item>
+    </string-array>
+
+    <string name="agent">Sales Representative: %1$s</string>
+    <string name="expeditor">Expeditor: %1$s</string>
+    <string name="delivery_date">Shipping date: %1$s</string>
+    <string name="consign_date">Consignment Date: %1$s</string>
+
+    <string name="repeat">Repeat</string>
+
+    <string name="info">Information</string>
+    <string name="order">Order</string>
+    <string name="payment">Payment</string>
+    <string name="photo">Photo</string>
+    <string name="consignment">Consignment</string>
+    <string name="attach">Attachment</string>
+    <string name="stock">Stocks</string>
+    <string name="returns">Returns</string>
+    <string name="deal">Deal</string>
+    <string name="prepayment">Prepayment</string>
+    <string name="report">Report</string>
+    <string name="reporting">Reports</string>
+    <string name="shipped">Orders for shipment</string>
+    <string name="reason_for_return">Reason for return</string>
+    <string name="gift">Promo</string>
+    <string name="action">Action</string>
+    <string name="memo">Purpose of visit</string>
+    <string name="note">Note</string>
+    <string name="quiz">Quiz</string>
+    <string name="service">Services</string>
+    <string name="characteristics">Characteristics</string>
+    <string name="legal_person">Legal persons</string>
+    <string name="natural_person_doctor">Doctor</string>
+    <string name="map">Map</string>
+    <string name="debtor">Debtors</string>
+    <string name="visit">Visit</string>
+    <string name="sv_visit">Visit of supervisor</string>
+    <string name="outlet_deal_history">Deal history</string>
+    <string name="price">Price</string>
+    <string name="region">Region</string>
+    <string name="speciality">Speciality</string>
+    <string name="lpu">MPI</string>
+    <string name="lpu_full">Medical treatment and prevention institution</string>
+    <string name="setting">Settings</string>
+
+    <string name="complete">Completed</string>
+    <string name="date">Date</string>
+    <string name="send">Send</string>
+    <string name="sent">Sent</string>
+    <string name="intro_start">Get started</string>
+    <string name="during_the_development_phase">Under development)))</string>
+    <string name="list_is_empty">List is empty</string>
+    <string name="box_is_empty">Folder is empty</string>
+    <string name="trash_is_empty">Trash is empty</string>
+    <string name="drafts_is_empty">Draft is empty</string>
+    <string name="select">Select</string>
+    <string name="update">Update</string>
+    <string name="change">Change</string>
+    <string name="gps_tracking">GPS tracking</string>
+    <string name="track_your_location">Tracking your location</string>
+    <string name="determining_location">Locating</string>
+    <string name="skip">Skip</string>
+    <string name="basic">Basic</string>
+    <string name="total_sum">Total amount</string>
+    <string name="total_count">Total qty.</string>
+    <string name="remain_total_sum">balance of amount</string>
+    <string name="exit_dont_save">Quit without saving?</string>
+    <string name="filter">Filter</string>
+    <string name="sum">Amount</string>
+    <string name="count">Qty.</string>
+    <string name="position">Position</string>
+    <string name="sku">SKU</string>
+    <string name="select_outlet">Select legal person</string>
+    <string name="barcode">Barcode</string>
+    <string name="scan">Scan</string>
+    <string name="input">Input</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="generating_an_error_try_again">Generation error.&lt;br/>Try again</string>
+    <string name="outlet_not_found">Legal person not found</string>
+    <string name="you_do_have_not_application_to_view_downloaded_file">You do not have any applications to view the downloaded file</string>
+    <string name="choose">Choose</string>
+    <string name="save_location">Save location</string>
+    <string name="unauthenticated">Authorization required</string>
+    <string name="near_outlet_is_empty">Legal persons not selected</string>
+    <string name="unknown">Unknown</string>
+    <string name="address_unknown">Address (Unknown)</string>
+    <string name="show_all">Show all</string>
+    <string name="visit_outlets">Visited legal persons</string>
+    <string name="deal_outlets">Unscheduled</string>
+    <string name="return_outlets">Returns</string>
+    <string name="deal_visit_count">%1$s visits</string>
+    <string name="exists_filial_room_is_empty">Available work places not found</string>
+    <string name="add_outlet">Adding a legal persons</string>
+    <string name="edit_outlet">Editing a legal persons</string>
+    <string name="add_legal_person">Adding a legal person</string>
+    <string name="edit_legal_person">Edit legal person</string>
+    <string name="add_legal_person_pharmacy">Adding pharmacy</string>
+    <string name="edit_legal_person_pharmacy">  Edit pharmacy</string>
+    <string name="add_legal_person_doctor">Adding a doctor</string>
+    <string name="select_room">Select a workplace</string>
+    <string name="success">Success</string>
+    <string name="you_can_note_work_with_outlet">You cannot work with %1$s</string>
+    <string name="root_error_msg">On your device is not installed licensed OS with ROOT access, or developer mode is enabled.</string>
+    <string name="mock_error_msg">Your phone is on МОСК LOCATION MODE!!!</string>
+    <string name="cant_connect_to_server">Unable to connect to the server.\nError connecting</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="entry_is_locked">Cannot save. Data ready for shipment</string>
+    <string name="enable_gps_provider">Turn on location sharing (GPS)</string>
+    <string name="enable_gps_grand">Allow access to use GPS</string>
+    <string name="enable_doze_mode">Allow using in background</string>
+    <!--<string name="time_info_minute">%1$s минут</string>-->
+    <!--<string name="time_info_hour2">час</string>-->
+    <string name="time_info_hour">%1$s hour</string>
+    <string name="server_time_error">Your account does not sync %1$s, To continue working, you need to sync with the server </string>
+    <string name="deal_time_margin">Your device is not set to the correct time</string>
+
+    <string name="accuracy_you_location">The location is not defined. Please try again outside of the room.</string>
+    <string name="exceeded_the_amount_payment">Payment amount exceeded</string>
+    <string name="error_in_ready_debtor">Error on completion !!!\n Saved</string>
+    <string name="contract_number">Contract №</string>
+    <string name="fill_in_required_fields">Fill in required modules</string>
+
+    <string name="person_charact">Characteristic</string>
+    <string name="props_name">Requisites</string>
+    <string name="typeorg">Type of organization</string>
+    <string name="department">Department</string>
+    <string name="typeown">Form of ownership</string>
+    <string name="orgform">Organizational form</string>
+    <string name="ladress">Legal address</string>
+    <string name="inn">INN</string>
+    <string name="kopf">KOPF</string>
+    <string name="kfc">KFC</string>
+    <string name="okonx">OKONX</string>
+    <string name="okpo">OKPO</string>
+    <string name="okud">OKUD</string>
+    <string name="coato">COATO</string>
+    <string name="coogu">COOGU</string>
+    <string name="oked">OKED</string>
+    <string name="svift">SVIFT</string>
+
+    <string name="typeaddress">Type Address</string>
+    <string name="post">Postal code</string>
+
+    <string name="delivery">Delivery</string>
+    <string name="work">Working</string>
+    <string name="others">Others</string>
+
+    <string name="filter_outlet_last_visit">Last visit</string>
+    <string name="can_not_determine_location">Cannot determine the location. It is recommended to be outdoors.</string>
+    <string name="location_accuracy_error">Location is defined with inaccuracy %1$s m.\nAvailable error is %2$s m.\nMore exact location is detected in background.</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="error_server_and_device_time_not_equal">Server and device times do not match, please sync</string>
+    <string name="error_server_and_begin_on_not_equal">Date of the visit is not relevant. Create a visit with todays date.</string>
+
+    <string name="you_temporary_password_will_expire_day">Term of your temporary password ends in %1$s d.</string>
+    <string name="you_temporary_password_is_about_to_end">Your temporary password expires</string>
+
+    <string name="location_time">%1$s sec.</string>
+    <string name="accuracy_in_meter">Accuracy %1$s m.</string>
+    <string name="locations_will_determine_in_the_background">Location is detected in background</string>
+    <string name="warehouse">Warehouse</string>
+
+    <string name="person_indebted">There is a debt</string>
+    <string name="person_prepayment">There is a prepayment</string>
+
+    <string name="session_role_uc_info">Role: %1$s</string>
+    <string name="session_filial_uc_info">Branch: %1$s</string>
+    <string name="deal_is_removed">deal is removed!</string>
+    <string name="price_edit_min_max">Min %1$s Max %2$s</string>
+    <string name="deal_form_price_type">P.T.: </string>
+    <string name="deal_form_currency">Currency: </string>
+    <string name="deal_delivery_date_incorrect">Invalid shipping date</string>
+    <string name="debtor_before_necessary_to_repay_the_current_debt">First you need to pay off the current debt</string>
+    <string name="debtor_info_consignment">(Consignment)</string>
+    <string name="file_manager_dir_is_empty">Error reading file path=null</string>
+    <string name="file_manager_info_title">Shared</string>
+    <string name="file_manager_action_bar_select_info">Selected %1$s</string>
+    <string name="file_manager_download_complete">Download completed!</string>
+    <string name="file_manager_failed_to_download">Failed to download!</string>
+    <string name="file_manager_download_paused">Download paused!</string>
+    <string name="file_manager_download_pending">Download pending…</string>
+    <string name="file_manager_download_is_running">Download is running…</string>
+    <string name="location_rejected_by_user">Denied by user</string>
+    <string name="person_bank_mfo_info">MFO:%1$s, %2$s</string>
+    <string name="person_label_speciality_is_required">field specialty required!</string>
+    <string name="person_address_home">Home</string>
+    <string name="person_address_juridic">Legal</string>
+    <string name="person_address_factial">Actual</string>
+    <string name="session_dashboard_by_money">By amount</string>
+    <string name="session_dashboard_by_quantity">By quantity</string>
+    <string name="session_dashboard_by_akb">By ACB</string>
+    <string name="session_dashboard_by_visit">By visit</string>
+    <string name="session_dashboard_by_weight">By weight</string>
+    <string name="session_person_balance_info">Balance: </string>
+    <string name="session_dashboard_visits_info">Visits</string>
+    <string name="session_visit_plan_error_select_date">error: sysdate > curDate</string>
+    <string name="tracking_visited_info">Visited</string>
+    <string name="tracking_not_visited_info">Not Visited</string>
+    <string name="tracking_extraordinary_info">Unscheduled</string>
+    <string name="deal_gift_tuning_cancel_all">Cancel all</string>
+    <string name="out_of_date">%1$s (Outdated!)</string>
+    <string name="fill_this_required_field">%1$s cannot be empty!</string>
+
+    <string name="share_via">Share via</string>
+    <string name="dashboard_plan_hint_1">Fact</string>
+    <string name="dashboard_plan_hint_2">Forecast</string>
+    <string name="dashboard_plan_hint_3">Plan</string>
+    <string name="all">All</string>
+    <string name="kpi_room">By rooms</string>
+    <string name="kpi_product">By products</string>
+    <string name="kpi_product_type">By product types</string>
+    <string name="update_now">Update</string>
+    <string name="update_message">Your version is out-of-date, please update!</string>
+    <string name="update_available">Update available</string>
+
+    <string name="person_location_format_incorrect">Location format is incorrect</string>
+
+    <string name="notify_care_work_title">Notification</string>
+    <string name="notify_care_work">Не забудьте завершить все визиты и сделать синхронизацию</string>
+
+</resources>

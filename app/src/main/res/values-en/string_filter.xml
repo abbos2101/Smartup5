@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="filter_outlet_visit">Date of visit</string>
+    <string name="filter_outlet_delivery_date">Shipping date</string>
+    <string name="filter_outlet_debtor_date">Debtor date</string>
+    <string name="filter_outlet_debtor_payment">Payment date</string>
+</resources>

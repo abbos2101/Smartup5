@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f_manager_title">Файл менеджер</string>
+    <string name="f_manager_myFiles_title">Мои файлы</string>
+    <string name="f_manager_sharedFiles_title">Доступные мне</string>
+    <string name="f_manager_modify_date">Изменен: %1$s </string>
+    <string name="f_manager_copy_title">Копирование</string>
+    <string name="f_manager_move_title">Перемещение</string>
+
+    <!--OPTIONS-->
+    <string name="f_manager_option_info">Информация</string>
+    <string name="f_manager_option_permission">Доступ</string>
+    <string name="f_manager_option_copy">Копировать</string>
+    <string name="f_manager_option_rename">Переименовать</string>
+    <string name="f_manager_option_move">Переместить</string>
+    <string name="f_manager_option_remove">Удалить</string>
+
+    <!--FLOATING BUTTONS-->
+    <string name="f_manager_float_create_folder">Создать папку</string>
+    <string name="f_manager_float_upload_file">Добавить файл</string>
+
+    <!--INFO DIALOG-->
+    <string name="f_manager_info_modified">Изменен:</string>
+    <string name="f_manager_info_created">Создан:</string>
+    <string name="f_manager_info_owner">Владелец:</string>
+    <string name="f_manager_info_extension">Тип:</string>
+    <string name="f_manager_info_root">Корневая папка:</string>
+    <string name="f_manager_permission_type">Тип доступа</string>
+
+    <!--OTHERS-->
+    <string name="f_m_file_copied">Файл(ы) скопирован(ы)</string>
+    <string name="f_m_file_moved">Файл(ы) перемещен(ы)</string>
+    <string name="f_m_folder_created">Папка создана</string>
+    <string name="f_m_file_renamed">Файл переименован</string>
+    <string name="f_m_access_created">Доступ открыт</string>
+    <string name="f_m_file_uploaded">Файл успешно отправлен в сервер</string>
+    <string name="f_m_file_saved_to_server">Файл сохранен</string>
+    <string name="f_m_file_deleted">Файл(ы) удален(ы)</string>
+    <string name="f_m_access">Доступ</string>
+    <string name="f_m_enter_name">Введите название:</string>
+    <string name="f_m_want_upload_download">Вы точно хотите загрузить этот файл?</string>
+    <string name="f_m_upload_download_file">Загрузка</string>
+    <string name="f_m_want_delete">Вы действительно хотите удалить (%1$s) файл(ы)?</string>
+    <string name="f_m_delete_files">Удаление</string>
+    <string name="f_m_file_not_downloaded">Файл не загружен</string>
+    <string name="f_m_file_downloaded">Файл загружен</string>
+
+    <!-- ERRORS -->
+    <string name="f_m_duplicate_name_error">Невозможно продолжить операцию. Файл или папка с таким именем уже существует</string>
+    <string name="f_m_file_not_found_error">Файл с таким именем не найден</string>
+    <string name="f_m_application_not_found_error">Приложение для открытии файла не найдено</string>
+    <string name="f_m_file_downloaded_to_error">Файл загружен в: %1$s</string>
+
+    <!--ACCESS-->
+    <string name="file_access_dialog_title">Доступ</string>
+    <string name="file_access_read">Чтение</string>
+    <string name="file_access_add">Запись</string>
+    <string name="file_access_edit">Изменение</string>
+    <string name="file_access_full">Полный</string>
+    <string name="file_access_add_new">Добавьте пользователя</string>
+
+</resources>

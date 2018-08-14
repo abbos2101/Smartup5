@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="session_dashboard">Дашборд</string>
+    <string name="session_filial">Филиалы</string>
+    <string name="session_outlets">Контрагенты</string>
+    <string name="session_outlet_doctors">Врач</string>
+    <string name="session_outlet_pharms">Аптека</string>
+    <string name="session_warehouse">Склады</string>
+    <string name="session_today">Маршрут по плану</string>
+    <string name="session_shipped">Доставка</string>
+    <string name="session_visit_plan">Планирование визита</string>
+    <string name="session_report">@string/reporting</string>
+    <string name="session_report_v2">Отчетность (beta)</string>
+    <string name="session_exit">Выход</string>
+    <string name="session_duty">Сервисы</string>
+    <string name="session_bedtor">@string/debtor</string>
+    <string name="session_tracking_mp">Отслеживание МП</string>
+    <string name="session_messages">Сообщения</string>
+    <string name="session_connection_with_us">О приложении</string>
+    <string name="session_sync_success_message">Синхронизация завершена успешно</string>
+    <string name="session_menu_return">Возврат</string>
+
+    <string name="session_today_empty">Сегодня план отсутствует,\n займись собой и отдохни</string>
+    <string name="session_filia_not_have_role">Вам не прикреплена ни одна роль</string>
+
+    <string name="session_user">Пользователь</string>
+    <string name="session_server">Сервер</string>
+    <string name="session_last_sync">Посл. синхронизация</string>
+    <string name="session_outlets_count">Точек %1$s</string>
+    <string name="session_last_visit_inf">Сегодня %1$s</string>
+
+    <string name="session_filial_not_attach">Филиалы не прикреплены</string>
+    <string name="session_outlet_address">&lt;i>Адрес: %1$s&lt;/i></string>
+    <string name="session_account">Аккаунт:</string>
+    <string name="session_success_sync">Синхронизация прошла успешно!</string>
+
+    <string name="exit_title">Выход</string>
+    <string name="exit_go_out">Выйти</string>
+    <string name="exit_content">Вы действительно хотите выйти из программы?</string>
+    <string name="exit_outlet_index">Выйти из контрагента?</string>
+    <string name="exit_warehouse_index">Выйти из склада?</string>
+    <string name="sync_width_photo">Отправить с фото</string>
+    <string name="sync_product_photo">Скачать фото продукта</string>
+    <string name="sync_product_file">Скачать файл продукта</string>
+    <string name="session_fpp_info">Успешно: %1$s, Ошибка: %2$s</string>
+
+
+    <string name="sync_visit_with_ref">Синх. визит и справ.</string>
+    <string name="sync_visit_short">Быстрая синхронизация</string>
+    <string name="sync_visit_long">Полная синхронизация</string>
+    <string name="send_visit_photo">Отправить фото визитов</string>
+    <string name="download_product_photo">Скачать фото продукта</string>
+    <string name="download_product_file">Скачать файл продукта</string>
+
+    <string name="session_sync_sending_date">Отправка данных</string>
+    <string name="session_sync_admission_information">Приём данных</string>
+    <string name="session_sync_error_information">Ошибка данных %1$s</string>
+    <string name="session_sync_sending_photo">Отправка фото %1$s/%2$s</string>
+    <string name="session_sync_success_send">Успешно отправлено %1$s</string>
+    <string name="session_sync_error_sending">Ошибка при отправке %1$s</string>
+    <string name="session_sync_download_photo">Скачивание фото %1$s/%2$s</string>
+    <string name="session_sync_download_file">Скачивание файла %1$s/%2$s</string>
+    <string name="session_sync_success_download">Успешно скачалось %1$s</string>
+    <string name="session_sync_error_download">Ошибка скачивания %1$s</string>
+    <string name="session_sync_data_success_send">Данные успешно отправлены</string>
+    <string name="session_sync_data_processing">Обработка данных</string>
+
+    <string name="session_welcome">Приветствуем %1$s!</string>
+    <string name="session_dashboard_filial">Филиал: %1$s</string>
+    <string name="session_main_today">Сегодня</string>
+    <string name="session_today_visit">Визиты по маршрутам</string>
+    <string name="session_today_visit_shipped">Доставки по маршрутам</string>
+    <string name="session_deals">Сделки</string>
+    <string name="session_unscheduled_visits">Внеплановые визиты</string>
+
+    <string name="dashboard_price_type">Тип цены: %1$s</string>
+    <string name="dashboard_position">Позиция: %1$s</string>
+    <string name="dashboard_sku">SKU: %1$s</string>
+    <string name="dashboard_count">Количество: %1$s</string>
+    <string name="dashboard_total_sum">Сумма: %1$s</string>
+    <string name="dashboard_order_product">Товары по визитам</string>
+    <string name="dashboard_extraordinary_product">Товары по сделкам</string>
+
+    <string name="session_visit_count">с %1$s: %2$d раз.</string>
+    <string name="session_visit_latest">посл: %1$s</string>
+
+    <string name="session_count">Количество</string>
+
+    <string name="session_dashboard_deal_history_info">История</string>
+    <string name="deal_history_delivery_date">Отгрузка: %1$s</string>
+
+    <!--DEAL HISTORY-->
+    <string name="deal_state_new">Новый</string>
+    <string name="deal_state_executing">Обрабатывается</string>
+    <string name="deal_state_waiting">Ожидание</string>
+    <string name="deal_state_shipped">Отгружено</string>
+    <string name="deal_state_completed">Доставлено</string>
+    <string name="deal_state_archived">Архив</string>
+    <string name="deal_state_draft">Черновик</string>
+
+
+    <string name="session_double_exit">Чтобы выйти из аккаунта, нажмите НАЗАД ещё раз</string>
+
+
+</resources>

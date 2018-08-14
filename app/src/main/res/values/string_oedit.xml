@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="oedit_extras">Дополнительная информация</string>
+    <string name="oedit_basics">Основная информация</string>
+    <string name="oedit_contacts">Контакты</string>
+    <string name="oedit_groups">Категоризация</string>
+    <string name="oedit_visit_plan">План визитов</string>
+    <string name="not_found">Не найдено</string>
+
+    <string name="oedit_add_contact">Добавить контакт</string>
+    <string name="oedit_edit_contact">Редактировать контакт</string>
+
+    <string name="oedit_required">Обязательно для заполнения</string>
+    <string name="oedit_contact_not_editable">Контактное лицо недоступно для редактирования</string>
+
+    <string name="oedit_contact_name">Имя</string>
+    <string name="oedit_contact_birthday">Дата рождения</string>
+    <string name="oedit_contact_phone">Номер телефона</string>
+    <string name="oedit_contact_email">Email</string>
+    <string name="oedit_contact_post">Должность</string>
+
+</resources>

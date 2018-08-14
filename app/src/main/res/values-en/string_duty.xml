@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="to_send">Send</string>
+    <string name="sent_my_location">Your location has been sent.</string>
+    <string name="determine">Locate</string>
+    <string name="update_my_location">Update location</string>
+    <string name="accuracy">"Accuracy: %1$s m."</string>
+    <string name="unable_to_determine_your_location">Unable to locate</string>
+    <string name="send_my_location">Send location</string>
+    <string name="menu_prices">Price-list</string>
+    <string name="you_location_has_been_successfully_sent">Your location has been successfully sent.</string>
+
+    <string name="menu_filial_action">Action</string>
+    <string name="duty_action_warehouse">Warehouse: %1$s</string>
+    <string name="duty_action_kind">Type: %1$s</string>
+    <string name="duty_action_date">Date from: %1$s to: %2$s</string>
+    <string name="duty_action_condition_title">Level %1$s</string>
+    <string name="duty_action_bonus_product_detail">Value: %1$s</string>
+    <string name="duty_action_bonus_product_detail_max">, Maximum: %1$s</string>
+    <string name="duty_action_rule_detail">Value from: %1$s</string>
+    <string name="duty_action_rule_detail_to_value"> to: %1$s</string>
+    <string name="duty_action_amount">Amount</string>
+    <string name="duty_action_quant">Quantity</string>
+    <string name="duty_action_weight">Weight</string>
+    <string name="duty_action_bonus">Bonus %1$s</string>
+    <string name="duty_action_rule">Rule %1$s</string>
+
+</resources>

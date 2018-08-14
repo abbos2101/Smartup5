@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="warehouse_title">Склады</string>
+    <string name="warehouse_incoming">Приход на склад</string>
+    <string name="warehouse_stocktaking">Корректировка</string>
+    <string name="warehouse_movement_incoming">Приём: межфилиальные перемещения</string>
+    <string name="warehouse_open">Open</string>
+    <string name="warehouse_accept">Accept</string>
+    <string name="warehouse_movement_draft">Draft</string>
+    <string name="warehouse_movement_ready">Ready</string>
+    <string name="warehouse_movement_posted">Posted</string>
+    <string name="warehouse_movement_deleted">Deleted</string>
+
+    <string name="barcode_rotate_screen">Поверните в альбомную</string>
+
+    <string name="incoming_close">Закрыть</string>
+    <string name="incoming_done">Готово</string>
+    <string name="incoming_date">Дата</string>
+    <string name="incoming_number">Номер прихода</string>
+    <string name="incoming_currency">Валюта</string>
+    <string name="incoming_provider">Поставщик</string>
+    <string name="incoming_note">Примечание</string>
+    <string name="incoming_price">Цена</string>
+    <string name="incoming_price_required">Цена(обязательный)</string>
+    <string name="incoming_total_price">Сумма</string>
+    <string name="incoming_quantity">Количество</string>
+    <string name="incoming_quantity_required">Количество(обязательный)</string>
+    <string name="incoming_card_number">Номер карточки</string>
+    <string name="incoming_manufacture_price">Цена производителя</string>
+    <string name="incoming_expire_date">Срок годности</string>
+    <string name="incoming_save_error">Ошибка при завершении!!!\nПриход продукции на склад сохранена</string>
+    <string name="incoming_search_product">Поиск продукта / Штрих-код</string>
+    <string name="incoming_manual_input">Ручной ввод</string>
+    <string name="incoming_add_quant_via_barcode">Добавлено</string>
+    <string name="incoming_next">Следующий</string>
+    <string name="incoming_skip">Пропустить</string>
+    <string name="incoming_backward">Назад</string>
+    <string name="incoming_all_products">Продукты</string>
+    <string name="incoming_all_products_next">Next</string>
+    <string name="incoming_product_not_found">Product not found</string>
+    <string name="incoming_product_barcode">Штрих-код: %1$s</string>
+    <string name="incoming_filial_product">Добавление продукций</string>
+    <string name="incoming_product_detail_copy">Скопировать последнюю продуксью</string>
+
+    <string name="incoming_error_1">Заполните обязательные поля где производите приход</string>
+
+    <string name="stocktaking_number">Номер корректировки</string>
+    <string name="stocktaking_total_price">Сумма: %1$s</string>
+    <string name="stocktaking_last_price">Цена последнего прихода</string>
+
+    <string name="stocktaking_error_1">Заполните цену где есть фактический остаток</string>
+    <string name="stocktaking_save_error">Ошибка при завершении!!!\nКорректировки сохранена</string>
+    <string name="movement_incoming_save_error">Ошибка при завершении!!!\nПриход межфилиальные перемещения сохранена</string>
+    <string name="movement_from_filial">От филиала: %1$s</string>
+    <string name="movement_from_warehouse">От склада: %1$s</string>
+
+
+</resources>

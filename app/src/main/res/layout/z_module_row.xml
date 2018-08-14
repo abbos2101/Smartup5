@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <FrameLayout
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginRight="16dp">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/menu_1" />
+
+    </FrameLayout>
+
+    <uz.greenwhite.smartup5_trade.common.MyImageView
+        android:id="@+id/miv_main"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_gravity="top|right"
+        app:my_icon="@drawable/ic_star_rate_black_18dp"
+        app:my_icon_color="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/session_dashboard"
+        android:textSize="14dp" />
+
+    <uz.greenwhite.smartup5_trade.common.MyImageView
+        android:id="@+id/miv_visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="0"
+        app:my_icon="@drawable/ic_visibility_off_black_24dp"
+        app:my_icon_color="@color/light_silver" />
+
+</LinearLayout>

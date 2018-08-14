@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp"
+    android:animateLayoutChanges="true">
+
+    <TextView
+        android:id="@+id/tv_product_group_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.4"
+        android:gravity="right"
+        android:singleLine="true"
+        android:textSize="12dp" />
+
+    <uz.greenwhite.smartup5_trade.common.widget.HorizontalChart
+        android:id="@+id/hc_plan_chart"
+        android:layout_width="0dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="12dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

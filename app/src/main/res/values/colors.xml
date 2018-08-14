@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/app_color</color>
+    <color name="colorPrimaryDark">@color/app_color_dark</color>
+    <color name="colorAccent">@color/app_color_accent</color>
+
+    <color name="app_color">@color/white</color>
+    <color name="app_color_dark">#d9d9d9</color>
+    <color name="app_color_accent">#5877F3</color>
+
+    <color name="alpha">#00ffffff</color>
+
+    <color name="app_color_1">#A2228D</color>
+    <color name="app_color_2">#525096</color>
+    <color name="app_color_3">#0095D9</color>
+    <color name="app_color_4">#8ED8F8</color>
+    <color name="app_color_5">#A7CE3A</color>
+    <color name="app_color_6">#D2E388</color>
+    <color name="app_color_7">#FFCA00</color>
+    <color name="app_color_8">#ED7822</color>
+    <color name="app_color_9">#51B0D3</color>
+    <color name="app_color_10">#0e8e7d</color>
+    <color name="app_color_10_light">#18b49f</color>
+
+    <color name="deal_draft">#2f353b</color>
+    <color name="deal_new">#36918b</color>
+    <color name="deal_execute">#f3c200</color>
+    <color name="deal_wait">#c8d046</color>
+    <color name="deal_shipped">#4B77BE</color>
+    <color name="deal_complete">#D91E18</color>
+    <color name="deal_others">#b4b4b4</color>
+
+    <color name="buttom_silver">#7F7F7F</color>
+
+    <color name="calc_keyboard_light">#e6e6e6</color>
+    <color name="calc_keyboard_dark">#d4d4d4</color>
+    <color name="calc_keyboard_blue_light">#F1F5F8</color>
+
+    <color name="calc_text_color">#969696</color>
+
+    <color name="red">#ff0000</color>
+    <color name="green">#09a667</color>
+
+    <color name="red_alpha">#3bff0000</color>
+    <color name="green_alpha">#3b09a667</color>
+
+    <!-- Customer -->
+    <color name="text_customer_title">#262626</color>
+    <color name="text_customer_sub_title">#8b8b8b</color>
+    <color name="text_customer_info_title">#9AA4A8</color>
+    <color name="text_customer_detail">#262626</color>
+    <color name="text_customer_sub_detail">#8b8b8b</color>
+
+    <color name="text_color_light">#595959</color>
+    <color name="text_color_dark">#262626</color>
+    <color name="error">@color/red</color>
+    <color name="light_extra_silver">#f4e6e6e6</color>
+    <color name="light_silver">#c2c2c2</color>
+    <color name="dark_silver">#545454</color>
+    <color name="normal_silver">#818181</color>
+    <color name="click_light_silver">#dfdfdf</color>
+
+    <color name="tab_normal">#8dffffff</color>
+    <color name="tab_select">#ffffff</color>
+
+    <color name="header">#F0F0F0</color>
+
+    <color name="background">#F1F5F8</color>
+    <color name="text_by_background">@color/text_detail</color>
+    <color name="text_detail">#9AA4A8</color>
+    <color name="text_title">#727679</color>
+    <color name="default_icon">#E4E5E7</color>
+    <color name="hint_icon">#dcdddf</color>
+
+    <color name="app_red">#E95758</color>
+
+    <color name="dashboard_green">#1FB020</color>
+    <color name="dashboard_prediction">#FE615F</color>
+    <color name="dashboard_plan">#FFC602</color>
+
+    <color name="app_color_9_alfa">#38c8d0d2</color>
+    <color name="color_100_alfa">#00ffffff</color>
+</resources>

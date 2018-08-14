@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="outlet_date_of_shipment">Дата отгрузки: %1$s</string>
+    <string name="sdeal_insufficient_production">Недостаточно продукции</string>
+    <string name="sdeal_return_must_be_equal">Количество возврата не должно быть меньше количества заказа</string>
+    <string name="sdeal_order_price">Цена</string>
+    <string name="sdeal_discount">Скидка</string>
+    <string name="sdeal_total_amount">Общая сумма: </string>
+    <string name="sdeal_total_quant">Общее кол.: </string>
+
+    <string name="sdeal_order">Заказ</string>
+    <string name="sdeal_stock">Остаток</string>
+    <string name="sdeal_delivery">Доставка</string>
+    <string name="sdeal_return">Возврат</string>
+
+    <string name="sdeal_prepare">Подготовить к отправке</string>
+    <string name="sdeal_error_in_ready_sdeal">Ошибка при завершении!\nСохранена</string>
+
+    <string name="sdeal_avail">остаток: %1$s</string>
+    <string name="sdeal_total_sum">сумма: %1$s</string>
+    <string name="sdeal_price">цена: %1$s</string>
+
+    <string name="sdeal_contract">Договор</string>
+    <string name="sdeal_invoice">Счет фактура</string>
+    <string name="sdeal_power_of_attorney">Доверенность</string>
+    <string name="sdeal_select_return_reason">Укажите причину возврата</string>
+
+    <string name="sdeal_return_all">Возврат всех</string>
+    <string name="sdeal_cancel_return">Отменить возврат</string>
+
+</resources>

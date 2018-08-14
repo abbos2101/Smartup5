@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rep_title_001">Debit/Credit</string>
+    <string name="rep_title_002">Return report</string>
+    <string name="rep_title_003">Sales history</string>
+    <string name="rep_title_004">Report by date</string>
+    <string name="rep_title_005">Report on the last order of the legal persons</string>
+    <string name="rep_title_006">Total amount by products</string>
+    <string name="rep_title_007">Total amount by product groups</string>
+    <string name="rep_title_008">Total amount by legal persons</string>
+    <string name="rep_title_009">Total return on all warehouses</string>
+    <string name="rep_title_010">Return to warehouses</string>
+    <string name="rep_title_011">Shipment by amount</string>
+    <string name="rep_title_012">Payments</string>
+
+    <string name="report_from_date">from</string>
+    <string name="report_to_date">to</string>
+    <string name="report_btn_show_report">Show report</string>
+    <string name="report_all_field_requared">All fields are required</string>
+    <string name="report_warehouse_is_not_selected">None of the warehouses is selected</string>
+    <string name="report_prepayment_status">States</string>
+    <string name="report_prepayment_waiting">Expectation</string>
+    <string name="report_prepayment_posted">Conducted</string>
+    <string name="report_prepayment_abort">Canceled</string>
+
+    <string name="report_file_download">Downloading file...</string>
+    <string name="report_ssl_cert_error">SSL Certificate error.</string>
+    <string name="report_cert_authority_not_trusted">The certificate authority is not trusted.</string>
+    <string name="report_cert_has_expired">The certificate has expired.</string>
+    <string name="report_cert_hostname_mismatch">The certificate Hostname mismatch.</string>
+    <string name="report_cert_is_not_yet_valid">The certificate is not yet valid.</string>
+
+</resources>

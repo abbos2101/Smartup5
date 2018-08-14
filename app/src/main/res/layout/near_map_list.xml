@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="?attr/actionBarSize">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@drawable/near_above_shadow" />
+
+    <uz.greenwhite.smartup5_trade.m_near.util.SlideLayout
+        android:id="@+id/ListFrame"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@android:color/white"
+        android:gravity="center">
+
+        <uz.greenwhite.smartup5_trade.m_near.util.CustomListView
+            android:id="@+id/customListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:id="@+id/panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/header"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/emptyText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:minHeight="100dp"
+            android:text="@string/list_is_empty"
+            android:textColor="@android:color/black" />
+
+    </uz.greenwhite.smartup5_trade.m_near.util.SlideLayout>
+</LinearLayout>

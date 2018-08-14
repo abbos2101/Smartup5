@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tracking_visited_plan">Route plan:</string>
+    <string name="tracking_extraordinary">Quick order:</string>
+    <string name="tracking_map_title">&lt;b>Name: %1$s&lt;br/>Address: %2$s&lt;/b></string>
+    <string name="tracking_responsible">Responsible:</string>
+    <string name="tracking_last_visit">Last visit:</string>
+    <string name="tracking_distance">Distance:</string>
+    <string name="tracking_status">Status:</string>
+    <string name="tracking_date_of_visit">Date of visit</string>
+    <string name="tracking_apply">Apply</string>
+    <string name="tracking_show_user_tracking">Show GPS tracking</string>
+    <string name="tracking_show_point_of_sale">Show outlets</string>
+    <string name="tracking_info">Information</string>
+    <string name="tracking_gps_tracking_is_missing">GPS tracking is missing</string>
+    <string name="tracking_show_info">Show info</string>
+    <string name="tracking_show_subordinates">Show subordinates</string>
+    <string name="tracking_outlet_visit">Visiting legal person.</string>
+    <string name="tracking_order"> Order</string>
+    <string name="tracking_location_is_not">No coordinates</string>
+    <string name="tracking_role">&lt;b>Role:&lt;/b> %1$s</string>
+    <string name="tracking_filial">&lt;b>Branch:&lt;/b> %1$s</string>
+    <string name="tracking_manager">&lt;b>Leader:&lt;/b> %1$s</string>
+    <string name="tracking_install_google_map">Install Google Maps?</string>
+    <string name="tracking_install">Install</string>
+
+    <string name="map_title">Map</string>
+    <string name="map_type_normal">Standard view</string>
+    <string name="map_type_satellite">Satellite view</string>
+    <string name="map_type_terrain">Show Terrain</string>
+    <string name="map_type_hybrid">Hybrid</string>
+    <string name="map_open_external_map">Open another card</string>
+    <string name="default_type">Normal mode</string>
+    <string name="satellite_type">Satellite photos</string>
+    <string name="terrain_type">Terrain map</string>
+    <string name="hybrid_type">Satellite photos + information on streets and transport</string>
+    <string name="canot_connected_to_location">Failed to connect: %1$s</string>
+    <string name="connecting_success">Connected to Google Play services</string>
+    <string name="connecting_suspended">Connection suspended</string>
+    <string name="canot_create_location_dialog">Location settings are not correct, and can not be set here. The dialog is not created.</string>
+    <string name="canot_execute_request">Unable to complete request</string>
+    <string name="outlet_determination_of_area">Locating</string>
+    <string name="outlet_deal">Deal</string>
+    <string name="network_is_unreachable">No internet connection</string>
+
+</resources>

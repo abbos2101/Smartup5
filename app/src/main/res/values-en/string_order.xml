@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="order_product">Order</string>
+    <string name="order_stock">Balance</string>
+    <string name="order_recom">Recom</string>
+    <string name="order_comment">Comment</string>
+    <string name="order_note">Note</string>
+    <string name="order_memos">Memos</string>
+    <string name="order_quiz">Quiz</string>
+    <string name="order_gift">Promo</string>
+    <string name="order_account">Invoice</string>
+    <string name="order_order">Order(out)</string>
+
+    <string name="order_outlet_name">Legal person</string>
+    <string name="order_outlet_category">Type / Category</string>
+    <string name="order_outlet_address">Area / Address</string>
+    <string name="order_deal_amount">Total / Amount</string>
+    <string name="order_user">Added by</string>
+    <string name="order_visit_period">Time / Status</string>
+
+    <string name="order_price_type">Type of invoice</string>
+    <string name="order_sum">Amount</string>
+    <string name="order_added">Added by</string>
+    <string name="order_products">Product</string>
+    <string name="order_solid_deliver_quant">Quantity (out/ed)</string>
+    <string name="order_note_type">Тип заметки</string>
+    <string name="order_count">Quantity</string>
+    <string name="order_price">Price</string>
+    <string name="order_survey">Quiz</string>
+    <string name="order_answer">Answer</string>
+    <string name="order_market">Market</string>
+
+
+</resources>

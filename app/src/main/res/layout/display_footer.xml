@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow_bottom_to_top" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        style="@style/GWS.AccentButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="@string/edit" />
+
+    <LinearLayout
+        android:id="@+id/ll_save_or_ready"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_save"
+            style="@style/GWS.Button"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/save"
+            android:textColor="@color/app_color_accent" />
+
+        <Button
+            android:id="@+id/btn_ready"
+            style="@style/GWS.AccentButton"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/complete" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="product_info">Information</string>
+    <string name="product_name">Name</string>
+    <string name="product_measure_name">Unit of measurement</string>
+    <string name="product_measure_scale">Signs after decimal point</string>
+    <string name="product_box_name">Case type</string>
+    <string name="product_box_quant">Quantity in case</string>
+    <string name="product_scale_kind">Type of sale</string>
+    <string name="product_barcode">Product barcode</string>
+    <string name="product_expiry_date">Shelf life</string>
+    <string name="product_order_no">Serial number</string>
+    <string name="product_boxes">In case</string>
+    <string name="product_quants">Piece</string>
+    <string name="product_all">All</string>
+    <string name="product_photo">Product photo</string>
+    <string name="product_file">Product files</string>
+    <string name="product_not_download_photo">You have not downloaded a photo!</string>
+    <string name="product_not_download_file">You have not downloaded the file!</string>
+    <string name="product_mimitype_not_found">File format is not defined!</string>
+
+</resources>

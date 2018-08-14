@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="8%p"
+    android:keyWidth="16.67%p">
+
+    <Row>
+        <Key
+            android:codes="8"
+            android:keyEdgeFlags="left"
+            android:keyLabel="1" />
+        <Key
+            android:codes="9"
+            android:keyLabel="2" />
+        <Key
+            android:codes="10"
+            android:keyLabel="3" />
+        <Key
+            android:codes="11"
+            android:keyLabel="4" />
+        <Key
+            android:codes="12"
+            android:keyLabel="5" />
+        <Key
+            android:codes="67"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/kepad_delete" />
+    </Row>
+
+    <Row>
+        <Key
+            android:codes="13"
+            android:keyEdgeFlags="left"
+            android:keyLabel="6" />
+        <Key
+            android:codes="14"
+            android:keyLabel="7" />
+        <Key
+            android:codes="15"
+            android:keyLabel="8" />
+        <Key
+            android:codes="16"
+            android:keyLabel="9" />
+        <Key
+            android:codes="7"
+            android:keyLabel="0" />
+        <Key
+            android:codes="56"
+            android:keyEdgeFlags="right"
+            android:keyLabel="." />
+    </Row>
+
+</Keyboard>

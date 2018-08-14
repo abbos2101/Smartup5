@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/btn_close"
+        style="@style/GWS.Button"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="@string/incoming_close"
+        android:textColor="@color/app_color_accent"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_done"
+        style="@style/GWS.AccentButton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="@string/incoming_all_products_next"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_products"
+        style="@style/GWS.AccentButton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="@string/incoming_all_products"
+        android:visibility="gone" />
+
+
+</LinearLayout>

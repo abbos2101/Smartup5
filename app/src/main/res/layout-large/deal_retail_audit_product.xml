@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/header_bg" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_product_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="@color/text_color"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/light_silver" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="14dp">
+
+                        <uz.greenwhite.smartup5_trade.common.SquareImageView
+                            android:id="@+id/iv_product_photo"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.8"
+                            android:padding="16dp"
+                            android:src="@drawable/display_photo" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="4dp"
+                                android:layout_marginTop="16dp"
+                                android:text="@string/deal_ra_layout_sold_price"
+                                android:textColor="@color/text_color_dark"
+                                android:textSize="14dp" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/btn_sold_price_minus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_left_button"
+                                    android:padding="4dp"
+                                    android:src="@drawable/ic_remove_black_24dp" />
+
+                                <EditText
+                                    android:id="@+id/et_sold_price"
+                                    android:layout_width="0dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/my_edit_text"
+                                    android:gravity="right"
+                                    android:inputType="numberDecimal" />
+
+
+                                <ImageButton
+                                    android:id="@+id/btn_sold_price_plus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_right_button"
+                                    android:padding="4dp"
+                                    android:src="@drawable/ic_add_black_24dp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_sold_price_error"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/red"
+                                android:textSize="12dp" />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="4dp"
+                                android:layout_marginTop="16dp"
+                                android:text="@string/deal_ra_layout_input_price"
+                                android:textColor="@color/text_color_dark"
+                                android:textSize="14sp" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/btn_input_price_minus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_left_button"
+                                    android:padding="4dp"
+                                    android:src="@drawable/ic_remove_black_24dp" />
+
+                                <EditText
+                                    android:id="@+id/et_input_price"
+                                    android:layout_width="0dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/my_edit_text"
+                                    android:gravity="right"
+                                    android:inputType="numberDecimal" />
+
+
+                                <ImageButton
+                                    android:id="@+id/btn_input_price_plus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_right_button"
+                                    android:padding="4dp"
+                                    android:src="@drawable/ic_add_black_24dp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_input_price_error"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/red"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="4dp"
+                                android:text="@string/deal_ra_layout_sold_quant_large"
+                                android:textColor="@color/text_color_dark"
+                                android:textSize="15dp" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/btn_sold_quant_minus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_left_button"
+                                    android:padding="4dp"
+                                    android:src="@drawable/ic_remove_black_24dp" />
+
+                                <EditText
+                                    android:id="@+id/et_sold_quant"
+                                    android:layout_width="0dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/my_edit_text"
+                                    android:gravity="right"
+                                    android:inputType="numberDecimal" />
+
+
+                                <ImageButton
+                                    android:id="@+id/btn_sold_quant_plus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_right_button"
+                                    android:padding="4dp"
+                                    android:src="@drawable/ic_add_black_24dp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_sold_quant_error"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/red"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="4dp"
+                                android:text="@string/deal_ra_layout_income_quant_large"
+                                android:textColor="@color/text_color_dark"
+                                android:textSize="15dp" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/btn_income_quant_minus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_left_button"
+                                    android:padding="4dp"
+                                    android:src="@drawable/ic_remove_black_24dp" />
+
+                                <EditText
+                                    android:id="@+id/et_income_quant"
+                                    android:layout_width="0dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/my_edit_text"
+                                    android:gravity="right"
+                                    android:inputType="numberDecimal" />
+
+
+                                <ImageButton
+                                    android:id="@+id/btn_income_quant_plus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_right_button"
+                                    android:padding="4dp"
+                                    android:src="@drawable/ic_add_black_24dp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_income_quant_error"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/red"
+                                android:textSize="12dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp">
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="4dp"
+                                android:text="@string/deal_ra_layout_stock_quant_large"
+                                android:textColor="@color/text_color_dark"
+                                android:textSize="14dp" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/btn_stock_quant_minus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_left_button"
+                                    android:padding="4dp"
+                                    android:src="@drawable/ic_remove_black_24dp" />
+
+                                <EditText
+                                    android:id="@+id/et_stock_quant"
+                                    android:layout_width="0dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/my_edit_text"
+                                    android:gravity="right"
+                                    android:inputType="numberDecimal" />
+
+
+                                <ImageButton
+                                    android:id="@+id/btn_stock_quant_plus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_right_button"
+                                    android:padding="4dp"
+                                    android:src="@drawable/ic_add_black_24dp" />
+
+                                <ImageView
+                                    android:id="@+id/miv_extra_face_change"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_border_button"
+                                    android:paddingBottom="10dp"
+                                    android:paddingLeft="8dp"
+                                    android:paddingRight="8dp"
+                                    android:paddingTop="10dp"
+                                    android:src="@drawable/ic_assignment_black_24dp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_stock_quant_error"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/red"
+                                android:textSize="12dp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="4dp"
+                                android:layout_marginTop="16dp"
+                                android:text="@string/deal_ra_layout_extra_shelf_share"
+                                android:textColor="@color/text_color_dark"
+                                android:textSize="15dp" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/btn_shelf_share_minus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_left_button"
+                                    android:padding="4dp"
+                                    android:src="@drawable/ic_remove_black_24dp" />
+
+                                <EditText
+                                    android:id="@+id/et_shelf_share"
+                                    android:layout_width="0dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/my_edit_text"
+                                    android:gravity="right"
+                                    android:inputType="numberDecimal" />
+
+
+                                <ImageButton
+                                    android:id="@+id/btn_shelf_share_plus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_weight=".1"
+                                    android:background="@drawable/radius_right_button"
+                                    android:padding="4dp"
+                                    android:src="@drawable/ic_add_black_24dp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_shelf_share_error"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/red"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="16dp"
+                            android:text="@string/deal_ra_layout_extra_shelf_position"
+                            android:textColor="@color/text_color_dark"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:id="@+id/cb_shelf_hight"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/deal_ra_high" />
+
+                            <CheckBox
+                                android:id="@+id/cb_shelf_medium"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/deal_ra_medium" />
+
+                            <CheckBox
+                                android:id="@+id/cb_shelf_low"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/deal_ra_low" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</FrameLayout>

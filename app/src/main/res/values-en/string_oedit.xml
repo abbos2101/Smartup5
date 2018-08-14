@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="oedit_extras">Additional Information</string>
+    <string name="oedit_basics">Basic information</string>
+    <string name="oedit_contacts">Contacts</string>
+    <string name="oedit_groups">Categorization</string>
+    <string name="oedit_visit_plan">Plan of visits</string>
+    <string name="not_found">Not found</string>
+
+    <string name="oedit_add_contact">Add contact</string>
+    <string name="oedit_edit_contact">Edit contact</string>
+
+    <string name="oedit_required">Required information</string>
+    <string name="oedit_contact_not_editable">Contact person is not available for editing</string>
+
+    <string name="oedit_contact_name">Name</string>
+    <string name="oedit_contact_birthday">Date of birth</string>
+    <string name="oedit_contact_phone">Phone number</string>
+    <string name="oedit_contact_email">Email</string>
+    <string name="oedit_contact_post">Position</string>
+
+</resources>

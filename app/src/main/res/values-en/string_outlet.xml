@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="outlet_create">Add legal person</string>
+    <string name="person_create">Add legal person</string>
+    <string name="person_create_outlet">Add legal person</string>
+    <string name="outlet_name">Name</string>
+    <string name="outlet_legal_person_required">Name(required)</string>
+    <string name="outlet_legal_person_short_name">Short name</string>
+    <string name="outlet_legal_person_short_name_required">Short name(required)</string>
+    <string name="outlet_natural_person_name_required">Name</string>
+    <string name="outlet_natural_person_surname">Surname</string>
+    <string name="outlet_natural_person_patronymic">Last name</string>
+    <string name="outlet_person_name">Legal person</string>
+    <string name="outlet_short_name">Short name</string>
+    <string name="outlet_address">Address</string>
+    <string name="outlet_address_required">Address(required)</string>
+    <string name="outlet_address_guide">Reference point</string>
+    <string name="outlet_address_guide_required">Reference point(required)</string>
+    <string name="outlet_region">@string/region</string>
+    <string name="outlet_region_required">Region(required)</string>
+    <string name="outlet_hospital">Medical institution</string>
+    <string name="outlet_hospital_required">Medical institution(required)</string>
+    <string name="outlet_specialty">Specialization</string>
+    <string name="outlet_location">Location</string>
+    <string name="outlet_location_required">Location(required)</string>
+    <string name="outlet_phone">Telephone</string>
+    <string name="outlet_phone_required">Telephone(required)</string>
+    <string name="outlet_email">E-mail</string>
+    <string name="outlet_call">Call</string>
+    <string name="filter_outlet_has_visit">With visits</string>
+    <string name="outlet_neer_list">List</string>
+    <string name="outlet_neer_map">Map</string>
+    <string name="outlet_code">Code</string>
+    <string name="outlet_code_required">Code(required)</string>
+    <string name="outlet_zip_code">Zip code</string>
+    <string name="outlet_zip_code_required">Zip code(required)</string>
+    <string name="outlet_cabinet">Cabinet</string>
+    <string name="outlet_barcode">Barcode</string>
+    <string name="outlet_barcode_required">Barcode(required)</string>
+    <string name="outlet_email_required">E-mail(required)</string>
+    <string name="outlet_parent_required">Parent(required)</string>
+    <string name="outlet_inn">TIN</string>
+    <string name="outlet_okonx">ОКОНХ</string>
+    <string name="outlet_bank_account">Bank account code %1$s</string>
+    <string name="outlet_owner">Owner</string>
+
+    <string name="short_monday">mon</string>
+    <string name="short_tuesday">tue</string>
+    <string name="short_wednesday">wed</string>
+    <string name="short_thursday">thu</string>
+    <string name="short_friday">fri</string>
+    <string name="short_saturday">sat</string>
+    <string name="short_sunday">sun</string>
+
+    <string name="outlet_debdot_card">Card</string>
+    <string name="outlet_debdot_cash">Cash</string>
+
+    <string name="outlet_visit">Visit</string>
+    <string name="outlet_return">Return</string>
+    <string name="outlet_extraordinary">Deal</string>
+    <string name="outlet_change_location">Change location</string>
+    <string name="outlet_visit_plan">Visit plan</string>
+    <string name="outlet_visit_plan_success_edited">Visit plans is successfully edited!</string>
+    <string name="outlet_plan_start_date_error">Plan date is error</string>
+    <string name="outlet_plan_start_date_error_today">Plan date is earlier than todays date</string>
+    <string name="outlet_plan_nothing_plan">Plan is empty</string>
+    <string name="outlet_plan_set_tomorrow_date">Set tomorrow date</string>
+
+    <string name="outlet_info_address">Address: %1$s</string>
+    <string name="outlet_info_room">Workplace: %1$s</string>
+    <string name="legal_person_not_found">Legal person is not found</string>
+    <string name="region_not_found">Region is not found</string>
+    <string name="hospital_not_found">Medical institution is not found</string>
+
+    <string name="outlet_info">General information</string>
+    <string name="outlet_add">Add</string>
+    <string name="outlet_select">Select</string>
+
+    <string name="outlet_last_visit">&lt;b>Last visit:&lt;/b> %1$s</string>
+    <string name="outlet_last_shipment">&lt;b>Last delivery:&lt;/b> %1$s</string>
+    <string name="outlet_last_memo">&lt;b>Note:&lt;/b> %1$s</string>
+
+    <string name="post_code">Post code</string>
+    <string name="person_region">Region</string>
+
+    <string name="person_address">Address</string>
+    <string name="person_account">Bank account</string>
+    <string name="person_typeaddress">Select address</string>
+    <string name="outlet_banks">Bank</string>
+    <string name="mfos">Мфо</string>
+    <string name="outlet_characts">Legal person characteristics</string>
+    <string name="person_mfo">МФО</string>
+    <string name="person_bank">Bank</string>
+    <string name="outlet_checking_account">Bank account</string>
+    <string name="address">Address</string>
+    <string name="person_main">General</string>
+    <string name="person_status">Status</string>
+    <string name="person_currency">Currency</string>
+    <string name="oedit_bank_list_is_empty">Bank list is empty</string>
+
+    <string name="person_address_required">Address</string>
+    <string name="outlet_banks_required">Bank</string>
+    <string name="outlet_checking_account_required">Bank account</string>
+
+    <!-- Display Barcode -->
+    <string name="outlet_barcod_exists">&lt;i>%1$s&lt;/i> barcode is exists</string>
+    <string name="outlet_attach_barcode">Attach barcode</string>
+    <string name="outlet_attach_display">Attach display</string>
+    <string name="outlet_barcode_not_specified">Barcode is not specified</string>
+    <string name="outlet_barcode_missing">Barcode is not found</string>
+    <string name="outlet_display_missing">Display is not found</string>
+    <string name="outlet_undock_display_barcode">Detach barcode from display</string>
+    <string name="outlet_barcode_find_in">Barcode is not found in &lt;b>%1$s&lt;/b></string>
+    <string name="outlet_barcode_do_not_match">Barcode is not matched</string>
+    <string name="outlet_barcode_absent">Barcode is missed</string>
+    <string name="outlet_barcode_code">Code: %1$s</string>
+    <string name="outlet_do_you_want_to_delete">Do you want to delete?</string>
+    <string name="outlet_barcode_scanner">Barcode scanner</string>
+    <string name="outlet_display_barcode">Display barcode</string>
+    <string name="outlet_barcode_invent_number">Display inventory number: %1$s</string>
+    <string name="outlet_barcode_detail">Barcode: %1$s</string>
+    <string name="outlet_display_not_found">Barcode is not found !</string>
+    <string name="outlet_display_capture_photo">Take photo</string>
+    <string name="outlet_display_show_photo">Show photo</string>
+    <string name="outlet_display_remove_photo">Delete photo</string>
+    <string name="outlet_display_remove_barcode">Delete barcode</string>
+    <string name="outlet_display_header_invent">Display</string>
+    <string name="outlet_display_header_barcode">Barcode</string>
+    <string name="outlet_display_photo_download">Downloading…</string>
+    <string name="outlet_display_barcode_already_avialable">Barcode is already exists</string>
+    <string name="display_you_canot_attach_photo_if_not_barcode">You can not take photo if you do not scan barcode</string>
+    <string name="display_barcode_is_not_true">Barcode is not correct</string>
+    <string name="display_you_canot_unlink_not_linked">You can not detach unlinked display</string>
+    <string name="display_review_not_found">Can not find barcode=%1$s</string>
+    <string name="display_inventory_has_barcode">Inventory Display already has a barcode! barcode=%1$s, inventId=%2$s, state=%3$s</string>
+    <string name="display_barcode_has_invent">Barcode Barcode has already attach to display! barcode=%1$s, inventId=%2$s, state=%3$s</string>
+    <string name="display_barcode_exists">Barcode is already exists barcode=%1$s</string>
+    <string name="display_remove_review_not_found">Remove Display is not found barcode=%1$s</string>
+    <string name="display_barcode_invent_duplicate">Barcode is duplicate result.length=%1$s</string>
+    <string name="display_outlet_invent_not_found">Outlet Display is not found inventId=%1$s</string>
+    <string name="display_do_you_want_to_delete">do you want to delete?</string>
+
+    <string name="outlet_run_full_sync">Full sync is running</string>
+    <string name="outlet_location_accuracy_bad">Location accurancy is bad %1$s м</string>
+
+    <string name="categorization_finish_error">Error!</string>
+    <string name="categorization">Categorization</string>
+    <string name="categorization_empty_text">Categorization is not added</string>
+
+    <string name="cashing_waiting">Waiting</string>
+    <string name="cashing_posted">Received</string>
+    <string name="cashing_abort">Canceled</string>
+
+    <string name="outlet_person_file">Files</string>
+    <string name="outlet_bound_children">Subordinate</string>
+    <string name="outlet_bound_parent">Parent</string>
+
+    <string name="person_kind_filter">Client type</string>
+    <string name="person_kind_person_name">Контрагент</string>
+    <string name="person_kind_pharm_name">Drug store</string>
+    <string name="person_kind_doctor_name">Doctor</string>
+
+
+</resources>

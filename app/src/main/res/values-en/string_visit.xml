@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="visit_detail_company">Organization: &lt;b> %1$s &lt;/b></string>
+    <string name="visit_detail_region">Area: &lt;b> %1$s &lt;/b></string>
+    <string name="visit_detail_short_address">Short Address: &lt;b> %1$s &lt;/b></string>
+    <string name="visit_reset">Reset</string>
+    <string name="visit_checkAll">Check all</string>
+</resources>

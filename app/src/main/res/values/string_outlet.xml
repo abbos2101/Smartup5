@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="outlet_create">Создать Т.Т.</string>
+    <string name="person_create">Создать Контрагент</string>
+    <string name="person_create_outlet">Создать торговую точку</string>
+    <string name="outlet_name">Название</string>
+    <string name="outlet_legal_person_required">Название(Обязательно)</string>
+    <string name="outlet_legal_person_short_name">Альтернативное название</string>
+    <string name="outlet_legal_person_short_name_required">Альтернативное название(Обязательно)</string>
+    <string name="outlet_natural_person_name_required">Имя(Обязательно)</string>
+    <string name="outlet_natural_person_surname">Фамилия</string>
+    <string name="outlet_natural_person_patronymic">Отчество</string>
+    <string name="outlet_person_name">Контрагент</string>
+    <string name="outlet_short_name">Альтернативное название</string>
+    <string name="outlet_address">Адрес</string>
+    <string name="outlet_address_required">Адрес(Обязательно)</string>
+    <string name="outlet_address_guide">Ориентир</string>
+    <string name="outlet_address_guide_required">Ориентир(Обязательно)</string>
+    <string name="outlet_region">@string/region</string>
+    <string name="outlet_region_required">Регион(Обязательно)</string>
+    <string name="outlet_hospital">ЛПУ</string>
+    <string name="outlet_hospital_required">ЛПУ(Обязательно)</string>
+    <string name="outlet_specialty">Специальность</string>
+    <string name="outlet_location">Местоположение</string>
+    <string name="outlet_location_required">Местоположение(Обязательно)</string>
+    <string name="outlet_phone">Телефон</string>
+    <string name="outlet_phone_required">Телефон(Обязательно)</string>
+    <string name="outlet_email">E-mail</string>
+    <string name="outlet_call">Вызов</string>
+    <string name="filter_outlet_has_visit">С наличием визита</string>
+    <string name="outlet_neer_list">Список</string>
+    <string name="outlet_neer_map">На карте</string>
+    <string name="outlet_code">Код</string>
+    <string name="outlet_code_required">Код(Обязательно)</string>
+    <string name="outlet_zip_code">Почтовый индекс</string>
+    <string name="outlet_zip_code_required">Почтовый индекс(Обязательно)</string>
+    <string name="outlet_cabinet">Кабинет</string>
+    <string name="outlet_barcode">Штрих-код</string>
+    <string name="outlet_barcode_required">Штрих-код(Обязательно)</string>
+    <string name="outlet_email_required">E-mail(Обязательно)</string>
+    <string name="outlet_parent_required">Владелец(Обязательно)</string>
+    <string name="outlet_inn">ИНН</string>
+    <string name="outlet_okonx">ОКОНХ</string>
+    <string name="outlet_bank_account">Расчетный счет %1$s</string>
+    <string name="outlet_owner">Ответственное лицо</string>
+
+    <string name="short_monday">пн</string>
+    <string name="short_tuesday">вт</string>
+    <string name="short_wednesday">ср</string>
+    <string name="short_thursday">чт</string>
+    <string name="short_friday">пт</string>
+    <string name="short_saturday">сб</string>
+    <string name="short_sunday">вс</string>
+
+    <string name="outlet_debdot_card">Терминал</string>
+    <string name="outlet_debdot_cash">Наличные</string>
+
+    <string name="outlet_visit">Полный визит</string>
+    <string name="outlet_return">Возврат</string>
+    <string name="outlet_extraordinary">Быстрый заказ</string>
+    <string name="outlet_change_location">Изменить местоположение</string>
+    <string name="outlet_visit_plan">План визитов</string>
+    <string name="outlet_visit_plan_success_edited">Планирование Т.Т. успешно изменено!</string>
+    <string name="outlet_plan_start_date_error">Дата плана отсутсвует</string>
+    <string name="outlet_plan_start_date_error_today">Дата плана установлена раньше сегодняшней даты</string>
+    <string name="outlet_plan_nothing_plan">Ничего не запланировано!</string>
+    <string name="outlet_plan_set_tomorrow_date">Установить завтрашнюю дату</string>
+
+    <string name="outlet_info_address">Адрес: %1$s</string>
+    <string name="outlet_info_room">Р.М.: %1$s</string>
+    <string name="legal_person_not_found">Контрагенты не найдены</string>
+    <string name="region_not_found">Регионы не найдены</string>
+    <string name="hospital_not_found">ЛПУ не найдены</string>
+
+    <string name="outlet_info">Общие сведения</string>
+    <string name="outlet_add">Добавить</string>
+    <string name="outlet_select">Выбрать</string>
+
+    <string name="outlet_last_visit">&lt;b>Последний визит:&lt;/b> %1$s</string>
+    <string name="outlet_last_shipment">&lt;b>Последняя отгрузка:&lt;/b> %1$s</string>
+    <string name="outlet_last_memo">&lt;b>Заметка:&lt;/b> %1$s</string>
+
+    <string name="post_code">Почтовый код</string>
+    <string name="person_region">Регион</string>
+
+    <string name="person_address">Адрес</string>
+    <string name="person_account">Расчётный счёт</string>
+    <string name="person_typeaddress">Выберите тип Адреса</string>
+    <string name="outlet_banks">Банк</string>
+    <string name="mfos">Мфо</string>
+    <string name="outlet_characts">Характеристика Т.Т</string>
+    <string name="person_mfo">МФО</string>
+    <string name="person_bank">БАНК</string>
+    <string name="outlet_checking_account">Расчётный счёт</string>
+    <string name="address">Адрес</string>
+    <string name="person_main">Основной</string>
+    <string name="person_status">Статус</string>
+    <string name="person_currency">Валюта</string>
+    <string name="oedit_bank_list_is_empty">Список банков пуст</string>
+
+    <string name="person_address_required">Адрес(Обязательно)</string>
+    <string name="outlet_banks_required">Банк(Обязательно)</string>
+    <string name="outlet_checking_account_required">Расчётный счёт(Обязательно)</string>
+
+    <!-- Display Barcode -->
+    <string name="outlet_barcod_exists">&lt;i>%1$s&lt;/i> штрих-код уже существует</string>
+    <string name="outlet_attach_barcode">Прикрепить штрих-код</string>
+    <string name="outlet_attach_display">Прикрепить оборудование</string>
+    <string name="outlet_barcode_not_specified">Штрих-код не указан</string>
+    <string name="outlet_barcode_missing">Штрих-коды не найдены</string>
+    <string name="outlet_display_missing">Оборудование не найдено</string>
+    <string name="outlet_undock_display_barcode">Открепить штрих-код от оборудования</string>
+    <string name="outlet_barcode_find_in">Штрих-код найден в &lt;b>%1$s&lt;/b></string>
+    <string name="outlet_barcode_do_not_match">Штрих-код не совпадает</string>
+    <string name="outlet_barcode_absent">Штрих-код отсуствует</string>
+    <string name="outlet_barcode_code">Код: %1$s</string>
+    <string name="outlet_do_you_want_to_delete">Вы точно хотите удалить?</string>
+    <string name="outlet_barcode_scanner">Сканер штрих-кода</string>
+    <string name="outlet_display_barcode">Штрих-код оборудования</string>
+    <string name="outlet_barcode_invent_number">Номер оборудовании: %1$s</string>
+    <string name="outlet_barcode_detail">Штрих-код: %1$s</string>
+    <string name="outlet_display_not_found">Оборудование не найдено!</string>
+    <string name="outlet_display_capture_photo">Фотографировать</string>
+    <string name="outlet_display_show_photo">Показать фото</string>
+    <string name="outlet_display_remove_photo">Удалить фото</string>
+    <string name="outlet_display_remove_barcode">Удалить Штрих-код</string>
+    <string name="outlet_display_header_invent">Оборудование</string>
+    <string name="outlet_display_header_barcode">Отсканированный Штрих-код</string>
+    <string name="outlet_display_photo_download">Загрузка изображения...</string>
+    <string name="outlet_display_barcode_already_avialable">Баркод уже имеется</string>
+    <string name="display_you_canot_attach_photo_if_not_barcode">Вы не можете прикрепить фото до тех пор не отсканируйте штрих-код</string>
+    <string name="display_barcode_is_not_true">Штрих-код не верный</string>
+    <string name="display_you_canot_unlink_not_linked">Вы пытаетесь открепит не прикрепленою оборудование</string>
+    <string name="display_review_not_found">Unlink. Оборудование не найден barcode=%1$s</string>
+    <string name="display_inventory_has_barcode">Inventory В Оборудование уже есть штрих-код, вы не можете связать! barcode=%1$s, inventId=%2$s, state=%3$s</string>
+    <string name="display_barcode_has_invent">Barcode У Штрих-код уже есть Оборудование, вы не можете связать! barcode=%1$s, inventId=%2$s, state=%3$s</string>
+    <string name="display_barcode_exists">Штрих-код уже существует barcode=%1$s</string>
+    <string name="display_remove_review_not_found">Remove Оборудование не найден barcode=%1$s</string>
+    <string name="display_barcode_invent_duplicate">Результат более одного, ключевой дубликат result.length=%1$s</string>
+    <string name="display_outlet_invent_not_found">Outlet Оборудование отсутствует inventId=%1$s</string>
+    <string name="display_do_you_want_to_delete">Вы точно хотите удалить?</string>
+
+    <string name="outlet_run_full_sync">Идёт полная синхронизация</string>
+    <string name="outlet_location_accuracy_bad">Ваше местоположение определяется с погрешностью %1$s м</string>
+
+    <string name="categorization_finish_error">Ошибка при завершении!</string>
+    <string name="categorization">Категоризация</string>
+    <string name="categorization_empty_text">Категоризация не создана</string>
+
+    <string name="cashing_waiting">В ожидании</string>
+    <string name="cashing_posted">Принят</string>
+    <string name="cashing_abort">Отменен</string>
+
+    <string name="outlet_person_file">Файлы</string>
+    <string name="outlet_bound_children">Подчиненные</string>
+    <string name="outlet_bound_parent">Владелец</string>
+
+
+    <string name="person_kind_filter">Тип клиента</string>
+    <string name="person_kind_person_name">Контрагент</string>
+    <string name="person_kind_pharm_name">Аптека</string>
+    <string name="person_kind_doctor_name">Врач</string>
+</resources>

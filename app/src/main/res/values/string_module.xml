@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="module_title">Изменение сортировки модуля</string>
+    <string name="module_set_main">Сделать главным</string>
+    <string name="module_show">Показать</string>
+    <string name="module_hide">Скрыть</string>
+
+</resources>

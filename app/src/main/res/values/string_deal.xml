@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deal_comment">Комментарий</string>
+    <string name="deal_pko">ПКО</string>
+    <string name="deal_retail_audit">Розничный аудит</string>
+    <string name="deal_agree">Статистика назначения</string>
+    <string name="deal_overload">Нагрузка</string>
+
+    <string name="deal_insufficient_product">Недостаточно продукции</string>
+    <string name="deal_prepare_visit">Подготовить визит к отправке</string>
+    <string name="deal_total_amount">Общая сумма %1$s</string>
+    <string name="deal_residual_amount">Остаток суммы %1$s</string>
+    <string name="deal_order_total_sum_not_equal">Сумма оплаты указана неверно</string>
+    <string name="deal_pko_total_sum_not_equal">Сумма ПКО указана неверно</string>
+    <string name="deal_specify_type_payment">Укажите тип оплаты</string>
+    <string name="deal_error_in_ready_deal">Ошибка при завершении!!!\nСделка сохранена</string>
+    <string name="deal_complete">@string/complete</string>
+    <string name="deal_complete_as">Завершить как</string>
+    <string name="deal_complete_draft">Завершить как черновик</string>
+    <string name="deal_remove_margin">Удалить скидку</string>
+    <string name="deal_filter_has_value">С наличием значения</string>
+    <string name="deal_filter_has_discount">С наличием скидки</string>
+    <string name="deal_filter_warehouse_avail">С наличием остатка</string>
+    <string name="deal_filter_sort_first_mll">Упорядочить MML</string>
+    <string name="deal_filter_has_barcode">С наличием штрих-кода</string>
+    <string name="deal_filter_has_photo">С наличием фото</string>
+    <string name="deal_filter_has_file">С наличием файла</string>
+    <string name="deal_filter_mml">MML</string>
+    <string name="deal_order_price">Цена</string>
+    <string name="deal_order_total_price">Сумма</string>
+    <string name="deal_order_warehous">Склад</string>
+    <string name="deal_order_recom">Реком.</string>
+    <string name="deal_order_discount">Скидка</string>
+    <string name="deal_order_quant">Кол.</string>
+    <string name="deal_order_clean">Очистить</string>
+    <string name="deal_order_apply_filter">Применить фильтр</string>
+    <string name="deal_order_move_to">Скопировать в</string>
+    <string name="deal_order_move_from">Скопировать из</string>
+    <string name="deal_orders">Заказы</string>
+    <string name="deal_quantity">Количество</string>
+    <string name="deal_price">Цена</string>
+    <string name="deal_card_code">Карточка</string>
+    <string name="deal_expiry_date">Срок годность</string>
+    <string name="deal_discount">Скидка</string>
+    <string name="deal_expire_date">Срок годности</string>
+    <string name="deal_set_discount">Установить</string>
+    <string name="deal_card_number">Номер карточки</string>
+    <string name="deal_producer">Производитель</string>
+    <string name="deal_prducer_region">Страна</string>
+    <string name="deal_discount_mark_up">Скидка/Наценка</string>
+    <string name="deal_sum">Сумма:</string>
+    <string name="deal_count">Кол.:</string>
+    <string name="deal_position">Позиция:</string>
+    <string name="deal_sku">SKU:</string>
+    <string name="deal_camera_app_not_found">Нет доступа к камере</string>
+    <string name="deal_photo_type_not_fond">Тип фотоотчета не найден</string>
+    <string name="deal_photo_outlet_name">Название контрагента: (%1$s) %2$s</string>
+    <string name="deal_photo_type">Тип: %1$s</string>
+    <string name="deal_photo_type_dialog">Тип фото</string>
+    <string name="deal_photo_date">Дата: %1$s</string>
+    <string name="deal_delete_selected_photo">Удалить выбранное фото</string>
+    <string name="deal_arrival_code">Карточка: %1$s</string>
+    <string name="deal_order_consignment">Консигнация</string>
+    <string name="deal_sum_consign">Укажите сумму консигнации</string>
+    <string name="deal_date_consign">Укажите дату оплаты</string>
+    <string name="deal_consgn_data">Дата оп.</string>
+    <string name="deal_first_make_order">Необхоимо сделать заказ, для указания типов оплат</string>
+    <string name="deal_first_make_payment">Необхоимо указать тип оплаты, для внесения суммы консигнации</string>
+    <string name="deal_stock_market">Рынок</string>
+    <string name="deal_stock_stock">Остаток</string>
+    <string name="deal_products">Продукты</string>
+    <string name="deal_quantity_return">Укажите количество возврата</string>
+    <string name="deal_price_return">Укажите цену возврата</string>
+    <string name="deal_delivery_date">Дата отгрузки</string>
+    <string name="deal_contract_number">@string/contract_number</string>
+    <string name="deal_expeditor">Доставщик</string>
+    <string name="deal_agent">Торговый представитель</string>
+    <string name="deal_gift_warehouse">Склад</string>
+    <string name="deal_gift_quant">Кол.</string>
+    <string name="deal_gift_insufficient_gift">Недостаточно промо материалов</string>
+    <string name="deal_module_is_mandatory">Модуль "%1$s" является обязательным</string>
+    <string name="deal_mandatory_complete">Заполните обязательные модули</string>
+    <string name="deal_product_count">Количество: %1$s</string>
+    <string name="deal_min_length">Минимальное количество символов %1$d</string>
+    <string name="deal_max_length">Максимальное количество символов %1$d</string>
+    <string name="deal_greater_than">Значение ответа должно быть больше, чем %1$d</string>
+    <string name="deal_less_than">Значение ответа должно быть меньше, чем %1$d</string>
+    <string name="deal_extra">Дополнительно</string>
+    <string name="deal_payment_type">Тип оплаты:</string>
+    <string name="deal_photo_info_type">Тип фото</string>
+    <string name="deal_photo_comment">Комментарий</string>
+    <string name="deal_photo_remove_msg">Вы действительно хотите удалить фото</string>
+
+    <string name="deal_sum_calc">Сумма: %1$s</string>
+
+    <string name="deal_service_sum">@string/deal_sum_calc</string>
+    <string name="deal_service_count">Количество: %1$s</string>
+    <string name="deal_service">Услуги</string>
+    <string name="deal_title">Визит</string>
+
+    <string name="deal_consign_date_error">Дата консигнации некорректна! Дата должна быть позже сегодняшней даты и позже даты отгрузки</string>
+
+    <string name="deal_ra_layout_sold_price">Продажная цена</string>
+    <string name="deal_ra_layout_input_price">Приходная цена</string>
+    <string name="deal_ra_layout_stock_quant">Кол-во остаток</string>
+    <string name="deal_ra_layout_stock_quant_large">Количество остаток</string>
+    <string name="deal_ra_layout_income_quant">Кол-во закуплено</string>
+    <string name="deal_ra_layout_income_quant_large">Количество закуплено</string>
+    <string name="deal_ra_layout_sold_quant">Продано за 7 дней</string>
+    <string name="deal_ra_layout_sold_quant_large">Продано за 7 дней</string>
+    <string name="deal_ra_layout_facing_quant">Фэйсинг</string>
+    <string name="deal_ra_layout_facing_quant_large">Фэйсинг</string>
+    <string name="deal_ra_layout_extra_facing">Дополнительная полка</string>
+    <string name="deal_ra_layout_extra_tray">Лоток</string>
+    <string name="deal_ra_layout_extra_fridge">Холодильник</string>
+    <string name="deal_ra_layout_extra_others">Другое</string>
+    <string name="deal_ra_layout_extra_shelf_position">Планограмма</string>
+    <string name="deal_ra_layout_extra_shelf_share">Занимая площадь полки (%)</string>
+    <string name="deal_term_of_consignment">Условия консигнации</string>
+    <string name="deal_consign_amount">Сумма</string>
+
+    <string name="deal_ra_sold_price">Цена: %1$s</string>
+    <string name="deal_ra_facing_quant">\u0020- Количество на полке: %1$s</string>
+    <string name="deal_ra_extra_facing">\u0020- Дополнительная полка</string>
+    <string name="deal_ra_ext_tray">\u0020- Лоток: %1$s</string>
+    <string name="deal_ra_ext_fridge">\u0020- Холодильник: %1$s</string>
+    <string name="deal_ra_ext_others">\u0020- Другое: %1$s</string>
+    <string name="deal_ra_shelf_position">\u0020- Положение полки: %1$s</string>
+    <string name="deal_ra_shelf_share">\u0020- Занимая площадь полки: %1$s</string>
+    <string name="deal_ra_high">Верхняя полка</string>
+    <string name="deal_ra_medium">Средняя полка</string>
+    <string name="deal_ra_low">Нижняя полка</string>
+
+    <!-- Agree -->
+    <string name="deal_agree_not_found">Не найдено</string>
+    <string name="deal_agree_period">Период</string>
+    <string name="deal_agree_past">Прошлый визит</string>
+    <string name="deal_agree_present">Текущее</string>
+    <string name="deal_agree_future">В перспективе</string>
+    <string name="deal_agree_period_day">День</string>
+    <string name="deal_agree_period_week">Неделя</string>
+    <string name="deal_agree_period_month">В месяц</string>
+    <string name="deal_agree_period_year">В год</string>
+
+    <string name="deal_next_visit">Укажите дату следующего визита</string>
+    <string name="deal_saved_next_visit_plan">Ваш следующий визит намечен на %1$s</string>
+
+    <string name="deal_terms_of_action">Условия акции</string>
+
+    <string name="deal_note_hint_enter_text">Введите текст</string>
+
+    <string name="deal_attach_agent_is_null_or_empty">В данном филиале нет активных торговых представителей.\nВозможно списки просто не обновлены, полная повторная синхронизация исправит данную ситуацию.</string>
+    <string name="deal_attach_expeditor_is_null_or_empty">В данном филиале нет активных Экспедитора.\nВозможно списки просто не обновлены, полная повторная синхронизация исправит данную ситуацию.</string>
+    <string name="deal_attach_agent_not_select">В модуле прикрепления выберите торгового представителя</string>
+    <string name="deal_attach_agent_is_are_you">Вы</string>
+    <string name="deal_actions">Продукция к акции</string>
+    <string name="deal_amount_scale">%1$s (%2$s)</string>
+    <string name="deal_total_module">Итог</string>
+
+
+    <string name="deal_required_delivery_date">Укажите дата отгрузку</string>
+    <string name="deal_save_online_deal_edit_error_1">You can not save deal when running synchronization</string>
+
+    <string name="deal_violation">Ограничений</string>
+    <string name="deal_you_have_more_violation">У вас есть (%1$s) ограничение</string>
+    <string name="deal_violation_values">Значение(%1$s)</string>
+    <string name="deal_violation_bans">Нарушения(%1$s)</string>
+    <string name="deal_ban_error_1">Вы достигли ограничения по данному типу цены: %1$s</string>
+    <string name="deal_ban_error_2">Вы достигли лимита задолженности: %1$s</string>
+    <string name="deal_ban_error_3">You cannot visit this legal person: %1$s</string>
+    <string name="deal_overloads">Продукция к нагрузке</string>
+    <string name="deal_promos">Продукция к промо</string>
+
+    <string name="deal_similar_product">Поиск альтернативной продукции</string>
+</resources>

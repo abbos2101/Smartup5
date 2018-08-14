@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/save"
+        style="@style/GWS.YellowButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/make_editable"
+        style="@style/GWS.BlueButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/edit"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/complete"
+        style="@style/GWS.GreenButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/deal_complete"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:visibility="gone" />
+</LinearLayout>

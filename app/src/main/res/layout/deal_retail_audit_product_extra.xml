@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/header_bg" />
+
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_product_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:padding="10dp"
+                        android:textColor="@color/text_color"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/light_silver" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="14dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/deal_ra_layout_extra_facing"
+                            android:textColor="@color/text_title"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingRight="4dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="4dp"
+                                    android:text="@string/deal_ra_layout_extra_tray"
+                                    android:textColor="@color/text_color_dark"
+                                    android:textSize="15dp" />
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageButton
+                                        android:id="@+id/btn_tray_minus"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="50dp"
+                                        android:layout_weight=".1"
+                                        android:background="@drawable/radius_left_button"
+                                        android:padding="4dp"
+                                        android:src="@drawable/ic_remove_black_24dp" />
+
+                                    <EditText
+                                        android:id="@+id/et_face_tray"
+                                        android:layout_width="0dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/my_edit_text"
+                                        android:gravity="center"
+                                        android:inputType="numberDecimal" />
+
+
+                                    <ImageButton
+                                        android:id="@+id/btn_tray_plus"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="50dp"
+                                        android:layout_weight=".1"
+                                        android:background="@drawable/radius_right_button"
+                                        android:padding="4dp"
+                                        android:src="@drawable/ic_add_black_24dp" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/tv_ext_tray_error"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/red"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingLeft="4dp"
+                                android:paddingTop="4dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="4dp"
+                                    android:text="@string/deal_ra_layout_extra_fridge"
+                                    android:textColor="@color/text_color_dark"
+                                    android:textSize="15dp" />
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageButton
+                                        android:id="@+id/btn_fridge_minus"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="50dp"
+                                        android:layout_weight=".1"
+                                        android:background="@drawable/radius_left_button"
+                                        android:padding="4dp"
+                                        android:src="@drawable/ic_remove_black_24dp" />
+
+                                    <EditText
+                                        android:id="@+id/et_face_fridge"
+                                        android:layout_width="0dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/my_edit_text"
+                                        android:gravity="center"
+                                        android:inputType="numberDecimal" />
+
+
+                                    <ImageButton
+                                        android:id="@+id/btn_fridge_plus"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="50dp"
+                                        android:layout_weight=".1"
+                                        android:background="@drawable/radius_right_button"
+                                        android:padding="4dp"
+                                        android:src="@drawable/ic_add_black_24dp" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/tv_ext_fridge_error"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/red"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingRight="4dp"
+                                android:paddingTop="4dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="4dp"
+                                    android:text="@string/deal_ra_layout_facing_quant"
+                                    android:textColor="@color/text_color_dark"
+                                    android:textSize="15dp" />
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageButton
+                                        android:id="@+id/btn_face_quant_minus"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="50dp"
+                                        android:layout_weight=".1"
+                                        android:background="@drawable/radius_left_button"
+                                        android:padding="4dp"
+                                        android:src="@drawable/ic_remove_black_24dp" />
+
+                                    <EditText
+                                        android:id="@+id/et_face_quant"
+                                        android:layout_width="0dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/my_edit_text"
+                                        android:gravity="center"
+                                        android:inputType="numberDecimal" />
+
+
+                                    <ImageButton
+                                        android:id="@+id/btn_face_quant_plus"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="50dp"
+                                        android:layout_weight=".1"
+                                        android:background="@drawable/radius_right_button"
+                                        android:padding="4dp"
+                                        android:src="@drawable/ic_add_black_24dp" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/tv_face_quant_error"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/red"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingLeft="4dp"
+                                android:paddingTop="4dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="4dp"
+                                    android:text="@string/deal_ra_layout_extra_others"
+                                    android:textColor="@color/text_color_dark"
+                                    android:textSize="15dp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageButton
+                                        android:id="@+id/btn_other_minus"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="50dp"
+                                        android:layout_weight=".1"
+                                        android:background="@drawable/radius_left_button"
+                                        android:padding="4dp"
+                                        android:src="@drawable/ic_remove_black_24dp" />
+
+                                    <EditText
+                                        android:id="@+id/et_face_other"
+                                        android:layout_width="0dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/my_edit_text"
+                                        android:gravity="center"
+                                        android:inputType="numberDecimal" />
+
+
+                                    <ImageButton
+                                        android:id="@+id/btn_other_plus"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="50dp"
+                                        android:layout_weight=".1"
+                                        android:background="@drawable/radius_right_button"
+                                        android:padding="4dp"
+                                        android:src="@drawable/ic_add_black_24dp" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/tv_ext_others_error"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/red"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</FrameLayout>

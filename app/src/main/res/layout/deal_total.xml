@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/header_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <FrameLayout
+            android:id="@+id/frame_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/deal_total_frame_background"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/deal_orders"
+                android:textColor="@color/dark_silver"
+                android:textSize="@dimen/title_size" />
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_orders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="6dp"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/frame_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/deal_total_frame_background"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/deal_actions"
+                android:textColor="@color/dark_silver"
+                android:textSize="@dimen/title_size" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_actions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="6dp"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/frame_promo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/deal_total_frame_background"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/deal_promos"
+                android:textColor="@color/dark_silver"
+                android:textSize="@dimen/title_size" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_promo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="6dp"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/frame_overload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/deal_total_frame_background"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/deal_overloads"
+                android:textColor="@color/dark_silver"
+                android:textSize="@dimen/title_size" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_overloads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="6dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

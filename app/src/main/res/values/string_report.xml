@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rep_title_001">Дебет/Кредит</string>
+    <string name="rep_title_002">Отчет по возврату</string>
+    <string name="rep_title_003">История продаж</string>
+    <string name="rep_title_004">Отчет по дате</string>
+    <string name="rep_title_005">Отчет по последнему заказу контрагентов</string>
+    <string name="rep_title_006">Общая сумма по продуктам</string>
+    <string name="rep_title_007">Общая сумма по группам продукций</string>
+    <string name="rep_title_008">Общая сумма по контрагентам</string>
+    <string name="rep_title_009">Общий возврат по всем складам</string>
+    <string name="rep_title_010">Возврат по складам</string>
+    <string name="rep_title_011">Отгрузки по сумме</string>
+    <string name="rep_title_012">Оплаты</string>
+
+    <string name="report_from_date">с</string>
+    <string name="report_to_date">по</string>
+    <string name="report_btn_show_report">Показать отчет</string>
+    <string name="report_all_field_requared">Все поля обязательны для заполнения</string>
+    <string name="report_warehouse_is_not_selected">Ни один из складов не выбран</string>
+    <string name="report_prepayment_status">Состояния</string>
+    <string name="report_prepayment_waiting">Ожидания</string>
+    <string name="report_prepayment_posted">Проведён</string>
+    <string name="report_prepayment_abort">Отменен</string>
+    
+    <string name="report_file_download">Загрузка файла ...</string>
+    <string name="report_ssl_cert_error">Ошибка сертификата SSL.</string>
+    <string name="report_cert_authority_not_trusted">Автору сертификата не доверяют.</string>
+    <string name="report_cert_has_expired">Срок действия сертификата истек.</string>
+    <string name="report_cert_hostname_mismatch">Недопустимое несоответствие имени хоста.</string>
+    <string name="report_cert_is_not_yet_valid">Сертификат еще не действителен.</string>
+
+</resources>

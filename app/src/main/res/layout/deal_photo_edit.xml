@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/text_color_dark"
+            android:text="@string/deal_photo_info_type"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/sp_photo_type"
+            style="@style/MySpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:saveEnabled="false" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_photo_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/deal_photo_comment"
+        android:lines="2"
+        android:maxLines="2" />
+</LinearLayout>

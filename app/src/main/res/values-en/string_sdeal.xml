@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="outlet_date_of_shipment">Shipping date: %1$s</string>
+    <string name="sdeal_insufficient_production">Not enough products</string>
+    <string name="sdeal_return_must_be_equal">Return amount must not be less than order quantity</string>
+    <string name="sdeal_order_price">Price</string>
+    <string name="sdeal_discount">Discount</string>
+    <string name="sdeal_total_amount">Total amount: </string>
+    <string name="sdeal_total_quant">total qty.: </string>
+
+    <string name="sdeal_order">Order</string>
+    <string name="sdeal_stock">Balance</string>
+    <string name="sdeal_delivery">Delivery</string>
+    <string name="sdeal_return">Return</string>
+
+    <string name="sdeal_prepare">Prepare for shipment</string>
+    <string name="sdeal_error_in_ready_sdeal">Error on completion!\nSaved</string>
+
+    <string name="sdeal_avail">Balance: %1$s</string>
+    <string name="sdeal_total_sum">Amount: %1$s</string>
+    <string name="sdeal_price">Price: %1$s</string>
+
+    <string name="sdeal_contract">Contract</string>
+    <string name="sdeal_invoice">Invoice</string>
+    <string name="sdeal_power_of_attorney">Power of attorney</string>
+    <string name="sdeal_select_return_reason">Enter the reason for return</string>
+
+    <string name="sdeal_return_all">Return of all</string>
+    <string name="sdeal_cancel_return">Cancel return</string>
+
+</resources>

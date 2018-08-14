@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tracking_visited_plan">Маршрут по-плану:</string>
+    <string name="tracking_extraordinary">Быстрый заказ:</string>
+    <string name="tracking_map_title">&lt;b>Название: %1$s&lt;br/>Адрес: %2$s&lt;/b></string>
+    <string name="tracking_responsible">Ответственный:</string>
+    <string name="tracking_last_visit">Последний визит:</string>
+    <string name="tracking_distance">Растояние:</string>
+    <string name="tracking_status">Статус:</string>
+    <string name="tracking_date_of_visit">Дата визита</string>
+    <string name="tracking_apply">Применить</string>
+    <string name="tracking_show_user_tracking">Показать GPS трекинг</string>
+    <string name="tracking_show_point_of_sale">Показать торговых точек</string>
+    <string name="tracking_info">Информация</string>
+    <string name="tracking_gps_tracking_is_missing">GPS трекинг отсутствует</string>
+    <string name="tracking_show_info">Показать информацию</string>
+    <string name="tracking_show_subordinates">Показать подчиненных</string>
+    <string name="tracking_outlet_visit">Посещение Т.Т.</string>
+    <string name="tracking_order"> Заказ</string>
+    <string name="tracking_location_is_not">Координаты отсутствуют</string>
+    <string name="tracking_role">&lt;b>Роль:&lt;/b> %1$s</string>
+    <string name="tracking_filial">&lt;b>Филиал:&lt;/b> %1$s</string>
+    <string name="tracking_manager">&lt;b>Руководитель:&lt;/b> %1$s</string>
+    <string name="tracking_install_google_map">Установить Google Maps?</string>
+    <string name="tracking_install">Установить</string>
+
+    <string name="map_title">Карта</string>
+    <string name="map_type_normal">Стандартный вид</string>
+    <string name="map_type_satellite">Вид со спутника</string>
+    <string name="map_type_terrain">Показать рельеф</string>
+    <string name="map_type_hybrid">Гибрид</string>
+    <string name="map_open_external_map">Открыть другую карту</string>
+    <string name="default_type">Обычный режим</string>
+    <string name="satellite_type">Снимки со спутника</string>
+    <string name="terrain_type">Карта рельефа местности</string>
+    <string name="hybrid_type">Снимки со спутника + инфа о улицах и транспорте</string>
+    <string name="canot_connected_to_location">Не удалось подключиться: %1$s</string>
+    <string name="connecting_success">подключен с Google Play services</string>
+    <string name="connecting_suspended">Подключение приостановлено</string>
+    <string name="canot_create_location_dialog">Настройки местоположения, являются не соответствующими, и не могут быть установлены здесь. Диалог не создается.</string>
+    <string name="canot_execute_request">Невозможно выполнить запрос</string>
+    <string name="outlet_determination_of_area">Определение местоположения</string>
+    <string name="outlet_deal">Сделка</string>
+    <string name="network_is_unreachable">Нет подключения к интернету</string>
+
+</resources>

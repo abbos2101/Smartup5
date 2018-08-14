@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f_manager_title">File manager</string>
+    <string name="f_manager_myFiles_title">My files</string>
+    <string name="f_manager_sharedFiles_title">Available to me</string>
+    <string name="f_manager_modify_date">Changed: %1$s </string>
+    <string name="f_manager_copy_title">Copying</string>
+    <string name="f_manager_move_title">Moving</string>
+
+    <!--OPTIONS-->
+    <string name="f_manager_option_info">Information</string>
+    <string name="f_manager_option_permission">Access</string>
+    <string name="f_manager_option_copy">Copy</string>
+    <string name="f_manager_option_rename">Rename</string>
+    <string name="f_manager_option_move">Move to</string>
+    <string name="f_manager_option_remove">Remove</string>
+
+    <!--FLOATING BUTTONS-->
+    <string name="f_manager_float_create_folder">Create a folder</string>
+    <string name="f_manager_float_upload_file">Add a file</string>
+
+    <!--INFO DIALOG-->
+    <string name="f_manager_info_modified">Changed:</string>
+    <string name="f_manager_info_created">Created by:</string>
+    <string name="f_manager_info_owner">Owner:</string>
+    <string name="f_manager_info_extension">Type:</string>
+    <string name="f_manager_info_root">Root folder:</string>
+    <string name="f_manager_permission_type">Access type</string>
+
+    <!--OTHERS-->
+    <string name="f_m_file_copied">File (s) copied (s)</string>
+    <string name="f_m_file_moved">File (s) moved (s)</string>
+    <string name="f_m_folder_created">Folder created</string>
+    <string name="f_m_file_renamed">File is renamed</string>
+    <string name="f_m_access_created">Access is open</string>
+    <string name="f_m_file_uploaded">File was successfully sent to the server</string>
+    <string name="f_m_file_saved_to_server">File saved</string>
+    <string name="f_m_file_deleted">File (s) deleted</string>
+    <string name="f_m_access">Access</string>
+    <string name="f_m_enter_name">Enter name:</string>
+    <string name="f_m_want_upload_download">Are you sure you want to download this file?</string>
+    <string name="f_m_upload_download_file">Load</string>
+    <string name="f_m_want_delete">Are you sure you want to delete (%1$s) file(s)?</string>
+    <string name="f_m_delete_files">Delete</string>
+    <string name="f_m_file_not_downloaded">File not uploaded</string>
+    <string name="f_m_file_downloaded">File downloaded</string>
+
+    <!-- ERRORS -->
+    <string name="f_m_duplicate_name_error">Can not continue the operation. File or folder with this name already exists</string>
+    <string name="f_m_file_not_found_error">File with this name can not be found</string>
+    <string name="f_m_application_not_found_error">Application for opening file not found</string>
+    <string name="f_m_file_downloaded_to_error">File uploaded to: %1$s</string>
+
+    <!--ACCESS-->
+    <string name="file_access_dialog_title">Access</string>
+    <string name="file_access_read">Read</string>
+    <string name="file_access_add">Write</string>
+    <string name="file_access_edit">Edit</string>
+    <string name="file_access_full">Full</string>
+    <string name="file_access_add_new">Add user</string>
+
+</resources>

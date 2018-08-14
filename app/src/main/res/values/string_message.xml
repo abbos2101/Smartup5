@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_info">&lt;p>%1$s&lt;/p>&lt;i>%2$s(%3$s)&lt;/i></string>
+
+    <string name="message_reply_to_msg">Ответ на сообщение</string>
+    <string name="message_info">Информация</string>
+    <string name="message_inbox">Входящие</string>
+    <string name="message_outbox">Отправленные</string>
+    <string name="message_draft">Черновик</string>
+    <string name="message_trash">Корзина</string>
+    <string name="message_reply">Ответить</string>
+    <string name="message_title">Тема</string>
+    <string name="message_text">Текст сообщений</string>
+    <string name="message_send_from">От кого: %1$s, %2$s</string>
+    <string name="message_send_to">Кому: %1$s</string>
+    <string name="message_receiver">Кому:</string>
+    <string name="message_send_reply">Re: %1$s</string>
+    <string name="message_send_answer_to">%1$s от %2$s написал(а)\n %3$s</string>
+    <string name="message_title_is_empty">Напишите тему сообщений</string>
+    <string name="message_text_is_empty">Напишите текст сообщений</string>
+    <string name="message_receivers_not_chosen">Укажите адресата(ов)</string>
+    <string name="message_sent">Сообщение отправлено</string>
+    <string name="message_not_sent">К сожалению, Ваше сообщение не отправлено: %1$s</string>
+    <string name="message_saved_in_draft">Сообщение сохранено в черновике</string>
+    <string name="message_not_saved_in_draft">Не удалось сохранить сообщение в черновике</string>
+    <string name="message_save_ignored">Не удалось сохранить сообщение в черновике\nУдалить Сообщение?</string>
+    <string name="message_attention">Внимание</string>
+    <string name="message_retry">Повторить</string>
+    <string name="message_no_message">Нет сообщений</string>
+    <string name="message_new_message">Новое Сообщение</string>
+    <string name="message_deleted">Сообщение удалено</string>
+    <string name="message_put_in_trash">Сообщение отправлено в корзину</string>
+    <string name="message_not_deleted">Не удалось удалить сообщение</string>
+    <string name="message_incoming_message">Входящее сообщение</string>
+
+
+</resources>

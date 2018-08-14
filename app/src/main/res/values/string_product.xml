@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="product_info">Информация</string>
+    <string name="product_name">Название</string>
+    <string name="product_measure_name">Единица измерения</string>
+    <string name="product_measure_scale">Знаков после запятой</string>
+    <string name="product_box_name">Тип кейса</string>
+    <string name="product_box_quant">Количество в кейсе</string>
+    <string name="product_scale_kind">Тип продажи</string>
+    <string name="product_barcode">Штрих-код продукта</string>
+    <string name="product_expiry_date">Срок годность</string>
+    <string name="product_order_no">Порядковый номер</string>
+    <string name="product_boxes">В кейсе</string>
+    <string name="product_quants">Штучно</string>
+    <string name="product_all">Все</string>
+    <string name="product_photo">Фото продукта</string>
+    <string name="product_file">Файлы продукта</string>
+    <string name="product_not_download_photo">Вы еще не скачали фото!</string>
+    <string name="product_not_download_file">Вы еще не скачали файл!</string>
+    <string name="product_mimitype_not_found">Формат файла не определен!</string>
+
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_kpi_pt"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btn_kpi_p"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btn_kpi_r"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp">
+
+                <RadioGroup
+                    android:id="@+id/rg_kpi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <RadioButton
+                        android:id="@+id/rb_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="S"
+                        android:text="@string/session_dashboard_by_money" />
+
+                    <RadioButton
+                        android:id="@+id/rb_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="Q"
+                        android:text="@string/session_dashboard_by_quantity" />
+
+                    <RadioButton
+                        android:id="@+id/rb_akb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="A"
+                        android:text="@string/session_dashboard_by_akb" />
+
+                    <RadioButton
+                        android:id="@+id/rb_visit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="R"
+                        android:text="@string/session_dashboard_by_visit" />
+
+                    <RadioButton
+                        android:id="@+id/rb_weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="W"
+                        android:text="@string/session_dashboard_by_weight" />
+                </RadioGroup>
+
+            </HorizontalScrollView>
+
+
+            <LinearLayout
+                android:id="@+id/ll_kpi_plan_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/dashboard_green" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/dashboard_plan_hint_1"
+                    android:textSize="12sp" />
+
+                <View
+                    android:id="@+id/v_predict_info"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/dashboard_prediction" />
+
+                <TextView
+                    android:id="@+id/tv_predict_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/dashboard_plan_hint_2"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/dashboard_plan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/dashboard_plan_hint_3"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

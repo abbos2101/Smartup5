@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="2dp"
+    android:layout_marginRight="2dp"
+    android:gravity="center_vertical"
+    android:text="0"
+    android:textAppearance="@style/TextAppearance.AppCompat.Notification"
+    android:textColor="@color/normal_silver"
+    android:textSize="14sp"
+    android:textStyle="bold" />

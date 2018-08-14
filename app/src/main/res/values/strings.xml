@@ -1,0 +1,223 @@
+<resources>
+    <string name="application_name" translatable="false">Smartup 5</string>
+    <string name="app_name" translatable="false">Smartup 5</string>
+    <string name="datasource_pref_name" translatable="false">SMARTUP5_TRADE_DS_PREFERENCE_V2</string>
+    <string name="datasource_database_version" translatable="false">7</string>
+
+
+    <string-array name="setting_locale_code">
+        <item>ru#Русский (Россия)</item>
+        <item>en#English (USA)</item>
+    </string-array>
+
+    <string name="agent">Т.П.: %1$s</string>
+    <string name="expeditor">Доставщик: %1$s</string>
+    <string name="delivery_date">Дата отгрузки: %1$s</string>
+    <string name="consign_date">Дата консигнации: %1$s</string>
+    <string name="repeat">Повторить</string>
+    <string name="info">Информация</string>
+    <string name="order">Заказ</string>
+    <string name="payment">Счет</string>
+    <string name="photo">Фото</string>
+    <string name="consignment">Консигнация</string>
+    <string name="attach">Прикрепление</string>
+    <string name="stock">Остатки</string>
+    <string name="returns">Возврат</string>
+    <string name="deal">Сделка</string>
+    <string name="prepayment">Предоплата</string>
+    <string name="report">Отчет</string>
+    <string name="reporting">Отчетность</string>
+    <string name="shipped">Заказы для отгрузки</string>
+    <string name="reason_for_return">Причина возврата</string>
+    <string name="gift">Промо</string>
+    <string name="action">Акция</string>
+    <string name="memo">Цель визита</string>
+    <string name="note">Примечание</string>
+    <string name="quiz">Опрос</string>
+    <string name="service">Услуги</string>
+    <string name="characteristics">Характеристики</string>
+    <string name="legal_person">Контрагент</string>
+    <string name="natural_person_doctor">Доктор</string>
+    <string name="map">Карта</string>
+    <string name="debtor">Должники</string>
+    <string name="visit">Визит</string>
+    <string name="sv_visit">Визит супервайзера</string>
+    <string name="outlet_deal_history">История заказов</string>
+    <string name="price">Прайс</string>
+    <string name="region">Регион</string>
+    <string name="speciality">Специальность</string>
+    <string name="lpu">ЛПУ</string>
+    <string name="lpu_full">Лечебно - профилактическое учреждение</string>
+    <string name="setting">Настройки</string>
+    <string name="complete">Завершить</string>
+    <string name="date">Дата</string>
+    <string name="send">Отправить</string>
+    <string name="sent">Отправлено</string>
+    <string name="intro_start">Начать работу</string>
+    <string name="during_the_development_phase">На стадии разработки)))</string>
+    <string name="list_is_empty">Список пуст</string>
+    <string name="box_is_empty">Папка пуста</string>
+    <string name="trash_is_empty">Корзина пуста</string>
+    <string name="drafts_is_empty">Черновик пуст</string>
+    <string name="select">Выберите</string>
+    <string name="update">Обновить</string>
+    <string name="change">Изменить</string>
+    <string name="gps_tracking">GPS отслеживание</string>
+    <string name="track_your_location">Отслеживание вашего местоположения</string>
+    <string name="determining_location">Определение местоположения</string>
+    <string name="skip">Пропустить</string>
+    <string name="basic">Базовая</string>
+    <string name="total_sum">Общая сумма</string>
+    <string name="total_count">Общее кол.</string>
+    <string name="remain_total_sum">Остаток суммы</string>
+    <string name="exit_dont_save">Выйти без сохранения?</string>
+    <string name="filter">Фильтр</string>
+    <string name="sum">Сумма</string>
+    <string name="count">Кол.</string>
+    <string name="position">Позиция</string>
+    <string name="sku">SKU</string>
+    <string name="select_outlet">Выберите Т.Т.</string>
+    <string name="barcode">Штрих-код</string>
+    <string name="scan">Сканировать</string>
+    <string name="input">Ввод</string>
+    <string name="scan_barcode">Сканировать Штрих-код</string>
+    <string name="generating_an_error_try_again">Ошибка генерации.&lt;br/>Повторите попытку</string>
+    <string name="outlet_not_found">Контрагент не найдена</string>
+    <string name="you_do_have_not_application_to_view_downloaded_file">У вас нет приложений для просмотра скаченного файла</string>
+    <string name="choose">Выбрать</string>
+    <string name="save_location">Сохранить местоположение</string>
+    <string name="unauthenticated">Необходима авторизация</string>
+    <string name="near_outlet_is_empty">Не выбраны Торговые Точки</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="address_unknown">Адрес(Неизвестно)</string>
+    <string name="show_all">Показать все</string>
+    <string name="visit_outlets">Посещённые точки</string>
+    <string name="deal_outlets">Внеплановые т.т.</string>
+    <string name="return_outlets">Возврат т.т.</string>
+    <string name="deal_visit_count">%1$s посещений</string>
+    <string name="exists_filial_room_is_empty">Доступные рабочие места не найдены</string>
+    <string name="add_outlet">Добавление Т.Т.</string>
+    <string name="edit_outlet">Редактирование Т.Т.</string>
+    <string name="add_legal_person">Добавление контрагента</string>
+    <string name="edit_legal_person">Редактирование данных контрагента</string>
+    <string name="add_legal_person_pharmacy">Добавление аптеки</string>
+    <string name="edit_legal_person_pharmacy">Редактирование данных аптеки</string>
+    <string name="add_legal_person_doctor">Добавление доктор</string>
+    <string name="select_room">Выберите рабочее место</string>
+    <string name="success">Успешно</string>
+    <string name="you_can_note_work_with_outlet">Вы не можете работать с %1$s</string>
+    <string name="root_error_msg">На вашем устройстве установлена не лицензионная прошивка ОС с ROOT правами, либо включен режим разработчика.</string>
+    <string name="mock_error_msg">В вашем телефоне включен режим МОСК LOCATION!!!</string>
+    <string name="cant_connect_to_server">Невозможно подключится к серверу.\nОшибка при подключении</string>
+    <string name="no_internet">Нет подключения к Интернету</string>
+    <string name="entry_is_locked">Невозможно сохранить. Данные подготовлены к отправке</string>
+    <string name="enable_gps_provider">Включите передачу геоданных(GPS)</string>
+    <string name="enable_gps_grand">Разрешите доступ на использование GPS</string>
+    <string name="enable_doze_mode">Разрешите доступ на использование фоновом режиме</string>
+    <!--<string name="time_info_minute">%1$s минут</string>-->
+    <!--<string name="time_info_hour2">час</string>-->
+    <string name="time_info_hour">%1$s часа</string>
+    <string name="server_time_error">Ваш аккаунт не синхронизируется уже %1$s, для продолжения работы необходимо синхронизироваться с сервером </string>
+    <string name="deal_time_margin">На вашем устройстве установлено неточное время.</string>
+    <string name="accuracy_you_location">Местоположение не определено. Повторите попытку вне помещения.</string>
+    <string name="exceeded_the_amount_payment">Превышена сумма оплаты</string>
+    <string name="error_in_ready_debtor">Ошибка при завершении!!!\n Cохранена</string>
+    <string name="contract_number">Контракт №</string>
+    <string name="fill_in_required_fields">Заполните обязательные поля</string>
+    <string name="person_charact">Характеристика</string>
+    <string name="props_name">Реквизиты</string>
+    <string name="typeorg">Тип организации</string>
+    <string name="department">Отдел</string>
+    <string name="typeown">Форма собственности</string>
+    <string name="orgform">Организационная форма</string>
+    <string name="ladress">Юридический адрес</string>
+    <string name="inn">ИНН</string>
+    <string name="kopf">КОПФ</string>
+    <string name="kfc">КФС</string>
+    <string name="okonx">ОКОНХ</string>
+    <string name="okpo">ОКПО</string>
+    <string name="okud">ОКУД</string>
+    <string name="coato">СОАТО</string>
+    <string name="coogu">СООГУ</string>
+    <string name="oked">ОКЕД</string>
+    <string name="svift">СВИФТ</string>
+    <string name="typeaddress">Тип Адрес</string>
+    <string name="post">Почтовый код</string>
+    <string name="delivery">Доставка</string>
+    <string name="work">Рабочая</string>
+    <string name="others">Другие</string>
+    <string name="filter_outlet_last_visit">Последнее посещение</string>
+    <string name="can_not_determine_location">Не удаётся определить местоположение. Рекомендуется находиться вне помещения.</string>
+    <string name="location_accuracy_error">Местонахождение определено с погрешностью %1$s м.\nДопустимая погрешность равна %2$s м.\nБолее точное местоположение будет определяться в фоновом режиме.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="error_server_and_device_time_not_equal">Время сервера и устройства не совпадают, произведите синхронизацию</string>
+    <string name="error_server_and_begin_on_not_equal">Дата визита не актуальна. Создайте визит с сегоднешней датой.</string>
+    <string name="you_temporary_password_will_expire_day">Срок вашего временного пароля заканчивается через %1$s дн</string>
+    <string name="you_temporary_password_is_about_to_end">Действие вашего временного пароля заканчивается</string>
+    <string name="location_time">%1$s сек.</string>
+    <string name="accuracy_in_meter">Точность %1$s м.</string>
+    <string name="locations_will_determine_in_the_background">Местоположение будет определяться в фоновом режиме</string>
+    <string name="warehouse">Склад</string>
+    <string name="person_indebted">Имеется задолженность</string>
+    <string name="person_prepayment">Имеется предоплата</string>
+
+    <string name="session_role_uc_info">Роль: %1$s</string>
+    <string name="session_filial_uc_info">Филиал: %1$s</string>
+    <string name="deal_is_removed">deal is removed!</string>
+    <string name="price_edit_min_max">Min %1$s Max %2$s</string>
+    <string name="deal_form_price_type">Т.Ц.: </string>
+    <string name="deal_form_currency">Валюта: </string>
+    <string name="deal_delivery_date_incorrect">Неверно указана дата отгрузки</string>
+    <string name="debtor_before_necessary_to_repay_the_current_debt">Прежде необходимо погасить текущий долг</string>
+    <string name="debtor_info_consignment">(Консигнация)</string>
+    <string name="file_manager_dir_is_empty">Ошибка при чтении файла path=null</string>
+    <string name="file_manager_info_title">Shared</string>
+    <string name="file_manager_action_bar_select_info">Выбрано %1$s</string>
+    <string name="file_manager_download_complete">Download completed!</string>
+    <string name="file_manager_failed_to_download">Failed to download!</string>
+    <string name="file_manager_download_paused">Download paused!</string>
+    <string name="file_manager_download_pending">Download pending…</string>
+    <string name="file_manager_download_is_running">Download is running…</string>
+    <string name="location_rejected_by_user">Отказано пользователем</string>
+    <string name="person_bank_mfo_info">МФО:%1$s, %2$s</string>
+    <string name="person_label_speciality_is_required">Специальность поле обязательное!</string>
+    <string name="person_address_home">Домашний</string>
+    <string name="person_address_juridic">Юридический</string>
+    <string name="person_address_factial">Фактический</string>
+    <string name="session_dashboard_by_money">По сумме</string>
+    <string name="session_dashboard_by_quantity">По количеству</string>
+    <string name="session_dashboard_by_akb">По АКБ</string>
+    <string name="session_dashboard_by_visit">По визитам</string>
+    <string name="session_dashboard_by_weight">По весу</string>
+    <string name="session_person_balance_info">Баланс: </string>
+    <string name="session_dashboard_visits_info">Визиты</string>
+    <string name="session_visit_plan_error_select_date">error: sysdate > curDate</string>
+    <string name="tracking_visited_info">Посещен</string>
+    <string name="tracking_not_visited_info">Не посещен</string>
+    <string name="tracking_extraordinary_info">Внеплановый</string>
+    <string name="deal_gift_tuning_cancel_all">Отменить все</string>
+    <string name="out_of_date">%1$s (Просрочен!)</string>
+    <string name="fill_this_required_field">Поле %1$s не может быть пустым!</string>
+
+    <string name="share_via">Отправить по</string>
+    <string name="dashboard_plan_hint_1">Факт</string>
+    <string name="dashboard_plan_hint_2">Прогноз</string>
+    <string name="dashboard_plan_hint_3">План</string>
+    <string name="all">Все</string>
+    <string name="kpi_room">По рабочим местам</string>
+    <string name="kpi_product">По продукциям</string>
+    <string name="kpi_product_type">По продуктовым направлениям</string>
+    <string name="update_now">Обновить</string>
+    <string name="update_message">Ваша версия устарела, пожалуйста обновите!</string>
+    <string name="update_available">Доступно обновление</string>
+
+    <string name="double_exit">Чтобы выйти, нажмите НАЗАД ещё раз</string>
+
+    <string name="person_location_format_incorrect">формат местоположении некорректно</string>
+
+    <string name="notify_care_work_title">Уведомление</string>
+    <string name="notify_care_work">Не забудьте завершить все визиты и сделать синхронизацию</string>
+
+
+
+</resources>
