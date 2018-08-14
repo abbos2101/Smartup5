@@ -6,8 +6,6 @@ import android.support.design.widget.BottomSheetBehavior;
 import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.Toast;
-
 import uz.greenwhite.lib.mold.Mold;
 import uz.greenwhite.lib.mold.MoldContentRecyclerFragment;
 import uz.greenwhite.lib.variable.ErrorResult;

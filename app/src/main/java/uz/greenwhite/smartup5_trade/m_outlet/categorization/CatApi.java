@@ -19,5 +19,4 @@ public class CatApi {
         String entryId = data.vCategorization.entryId;
         scope.ds.db.tryMakeStateSaved(entryId);
     }
-
 }

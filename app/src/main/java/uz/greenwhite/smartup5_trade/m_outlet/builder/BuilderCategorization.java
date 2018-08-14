@@ -1,7 +1,5 @@
 package uz.greenwhite.smartup5_trade.m_outlet.builder;
 
-import android.widget.Toast;
-
 import java.util.Comparator;
 
 import uz.greenwhite.lib.collection.MyArray;
@@ -15,6 +13,8 @@ import uz.greenwhite.lib.variable.ValueArray;
 import uz.greenwhite.lib.variable.ValueSpinner;
 import uz.greenwhite.smartup.anor.datasource.persist.EntryState;
 import uz.greenwhite.smartup.anor.m_admin.AdminApi;
+import uz.greenwhite.smartup5_trade.R;
+import uz.greenwhite.smartup5_trade.datasource.DS;
 import uz.greenwhite.smartup5_trade.datasource.DSUtil;
 import uz.greenwhite.smartup5_trade.datasource.Scope;
 import uz.greenwhite.smartup5_trade.m_outlet.bean.CatOption;
@@ -57,7 +57,7 @@ public class BuilderCategorization {
                     public SpinnerOption apply(CatOption catOption) {
                         return new SpinnerOption(catOption.optionId, catOption.name, catOption);
                     }
-                });
+                }).prepend(new SpinnerOption("0", DS.getString(R.string.not_selected)));
                 SpinnerOption selected = options.get(0);
                 if (entryFound != null) {
                     CatResultDetail catResultDetail = entryFound.outletCatQuiz.quizes
@@ -79,7 +79,6 @@ public class BuilderCategorization {
                 return CharSequenceUtil.compareToIgnoreCase(l.catQuiz.orderNo, r.catQuiz.orderNo);
             }
         });
-
         EntryState entryState = EntryState.NOT_SAVED_ENTRY;
         String entryId = "";
         if (entryFound != null) {
